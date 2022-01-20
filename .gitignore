@@ -1,0 +1,21 @@
+/vendor/
+/bin/
+/dev/config/
+
+# PYTHON
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.env
+.venv
+*.egg-info
+
+# OSX
+.DS_Store
+._*
+
+# MISC
+*.zip
+.unison*
+.vscode/
