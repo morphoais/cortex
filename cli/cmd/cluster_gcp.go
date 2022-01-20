@@ -465,7 +465,7 @@ func createGKECluster(clusterConfig *clusterconfig.GCPConfig, gcpClient *gcp.Cli
 
 	gkeClusterConfig := containerpb.Cluster{
 		Name:                  clusterConfig.ClusterName,
-		InitialClusterVersion: "1.18",
+		InitialClusterVersion: "1.23",
 		LoggingService:        "none",
 		NodePools: []*containerpb.NodePool{
 			{
