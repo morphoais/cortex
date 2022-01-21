@@ -22,13 +22,9 @@ set -euo pipefail
 api_images_cluster=(
   "python-predictor-cpu"
   "python-predictor-gpu"
-  "tensorflow-predictor"
-  "onnx-predictor-cpu"
-  "onnx-predictor-gpu"
 )
 api_images_aws=(
   # includes api_images_cluster
-  "python-predictor-inf"
 )
 api_images_gcp=(
   # includes api_images_cluster
@@ -48,8 +44,6 @@ dev_images_gcp=(
 )
 
 non_dev_images_cluster=(
-  "tensorflow-serving-cpu"
-  "tensorflow-serving-gpu"
   "cluster-autoscaler"
   "operator"
   "istio-proxy"
@@ -68,9 +62,7 @@ non_dev_images_cluster=(
 )
 non_dev_images_aws=(
   # includes non_dev_images_cluster
-  "tensorflow-serving-inf"
   "metrics-server"
-  "inferentia"
   "neuron-rtd"
   "nvidia"
 )

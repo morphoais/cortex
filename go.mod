@@ -1,6 +1,6 @@
 module github.com/cortexlabs/cortex
 
-go 1.17
+go 1.14
 
 require (
 	cloud.google.com/go v0.73.0
@@ -60,9 +60,9 @@ require (
 	gotest.tools v2.2.0+incompatible // indirect
 	istio.io/api v0.0.0-20200911191701-0dc35ad5c478
 	istio.io/client-go v0.0.0-20200807182027-d287a5abb594
-	k8s.io/api v0.23.1
-	k8s.io/apimachinery v0.23.1
-	k8s.io/client-go v0.23.1
+	k8s.io/api v0.22.2
+	k8s.io/apimachinery v0.22.2
+	k8s.io/client-go v0.22.2
 )
 
 replace github.com/docker/docker => github.com/docker/engine v17.12.0-ce-rc1.0.20200618181300-9dc6525e6118+incompatible
