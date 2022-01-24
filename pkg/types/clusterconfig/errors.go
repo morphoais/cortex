@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cortexlabs/cortex/pkg/lib/aws"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/sets/strset"
-	s "github.com/cortexlabs/cortex/pkg/lib/strings"
-	"github.com/cortexlabs/cortex/pkg/types"
+	"/cortex/pkg/lib/aws"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/sets/strset"
+	s "/cortex/pkg/lib/strings"
+	"/cortex/pkg/types"
 )
 
 const (

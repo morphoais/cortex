@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cortexlabs/cortex/pkg/lib/cast"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/exit"
-	"github.com/cortexlabs/cortex/pkg/lib/files"
-	"github.com/cortexlabs/cortex/pkg/lib/prompt"
-	"github.com/cortexlabs/cortex/pkg/lib/regex"
-	"github.com/cortexlabs/cortex/pkg/lib/slices"
-	s "github.com/cortexlabs/cortex/pkg/lib/strings"
-	"github.com/cortexlabs/cortex/pkg/lib/urls"
+	"/cortex/pkg/lib/cast"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/exit"
+	"/cortex/pkg/lib/files"
+	"/cortex/pkg/lib/prompt"
+	"/cortex/pkg/lib/regex"
+	"/cortex/pkg/lib/slices"
+	s "/cortex/pkg/lib/strings"
+	"/cortex/pkg/lib/urls"
 )
 
 type StringValidation struct {

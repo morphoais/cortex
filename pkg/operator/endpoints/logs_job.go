@@ -19,9 +19,9 @@ package endpoints
 import (
 	"net/http"
 
-	"github.com/cortexlabs/cortex/pkg/operator/operator"
-	"github.com/cortexlabs/cortex/pkg/operator/resources"
-	"github.com/cortexlabs/cortex/pkg/types/userconfig"
+	"/cortex/pkg/operator/operator"
+	"/cortex/pkg/operator/resources"
+	"/cortex/pkg/types/userconfig"
 	"github.com/gorilla/mux"
 	"github.com/gorilla/websocket"
 )

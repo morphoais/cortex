@@ -19,8 +19,8 @@ package status
 import (
 	"time"
 
-	"github.com/cortexlabs/cortex/pkg/types/metrics"
-	"github.com/cortexlabs/cortex/pkg/types/spec"
+	"/cortex/pkg/types/metrics"
+	"/cortex/pkg/types/spec"
 )
 
 type BatchJobStatus struct {

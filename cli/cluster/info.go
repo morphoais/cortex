@@ -17,9 +17,9 @@ limitations under the License.
 package cluster
 
 import (
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/json"
-	"github.com/cortexlabs/cortex/pkg/operator/schema"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/json"
+	"gitlab.com/ais8/cortex/pkg/operator/schema"
 )
 
 func Info(operatorConfig OperatorConfig) (*schema.InfoResponse, error) {

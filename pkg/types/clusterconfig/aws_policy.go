@@ -23,9 +23,9 @@ import (
 	"text/template"
 
 	"github.com/aws/aws-sdk-go/service/iam"
-	"github.com/cortexlabs/cortex/pkg/lib/aws"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/pointer"
+	"/cortex/pkg/lib/aws"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/pointer"
 )
 
 func DefaultPolicyName(clusterName string, region string) string {

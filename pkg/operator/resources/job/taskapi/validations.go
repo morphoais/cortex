@@ -17,9 +17,9 @@ limitations under the License.
 package taskapi
 
 import (
-	cr "github.com/cortexlabs/cortex/pkg/lib/configreader"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/operator/schema"
+	cr "/cortex/pkg/lib/configreader"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/operator/schema"
 )
 
 func validateJobSubmission(submission *schema.TaskJobSubmission) error {

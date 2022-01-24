@@ -22,7 +22,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/cloudwatch"
 	"github.com/aws/aws-sdk-go/service/cloudwatchlogs"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/errors"
 )
 
 var (

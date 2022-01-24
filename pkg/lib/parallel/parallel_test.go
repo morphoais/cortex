@@ -18,7 +18,7 @@ package parallel
 
 //
 // These tests must be run and verified manually:
-// go test github.com/cortexlabs/cortex/pkg/lib/parallel -run TestRunInParallel -v
+// go test /cortex/pkg/lib/parallel -run TestRunInParallel -v
 //
 
 // import (
@@ -26,7 +26,7 @@ package parallel
 
 // 	"github.com/stretchr/testify/require"
 
-// 	"github.com/cortexlabs/cortex/utils/util"
+// 	"/cortex/utils/util"
 // )
 
 // func delayAndPrint(jobID string, secs int) error {

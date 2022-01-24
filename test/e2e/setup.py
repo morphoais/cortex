@@ -26,7 +26,7 @@ setup(
     name="e2e",
     version="0.31.1",  # CORTEX_VERSION
     packages=find_packages(exclude=["tests"]),
-    url="https://github.com/cortexlabs/cortex",
+    url="https:///cortex",
     license="Apache License 2.0",
     python_requires=">=3.6",
     install_requires=[

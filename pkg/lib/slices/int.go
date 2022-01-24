@@ -17,7 +17,7 @@ limitations under the License.
 package slices
 
 import (
-	s "github.com/cortexlabs/cortex/pkg/lib/strings"
+	s "/cortex/pkg/lib/strings"
 )
 
 func HasInt(list []int, query int) bool {

@@ -19,7 +19,7 @@ package slices_test
 import (
 	"testing"
 
-	"github.com/cortexlabs/cortex/pkg/lib/slices"
+	"/cortex/pkg/lib/slices"
 	"github.com/stretchr/testify/require"
 )
 

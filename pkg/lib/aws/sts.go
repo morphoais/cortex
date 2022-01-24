@@ -29,10 +29,10 @@ import (
 	"github.com/aws/aws-sdk-go/private/protocol/query"
 	"github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil"
 	"github.com/aws/aws-sdk-go/service/sts"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/hash"
-	libjson "github.com/cortexlabs/cortex/pkg/lib/json"
-	"github.com/cortexlabs/cortex/pkg/lib/pointer"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/hash"
+	libjson "/cortex/pkg/lib/json"
+	"/cortex/pkg/lib/pointer"
 )
 
 // Returns account ID, whether the credentials were valid, any other error that occurred

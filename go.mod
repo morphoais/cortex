@@ -1,13 +1,13 @@
-module github.com/cortexlabs/cortex
+module gitlab.com/ais8/cortex
 
 go 1.17
 
 require (
 	github.com/DataDog/datadog-go v4.8.0+incompatible
-	github.com/aws/amazon-vpc-cni-k8s v1.9.3
+	github.com/aws/amazon-vpc-cni-k8s v1.10.1
 	github.com/aws/aws-sdk-go v1.40.6
-	github.com/cortexlabs/go-input v0.0.0-20200503032952-8b67a7a7b28d
-	github.com/cortexlabs/yaml v0.0.0-20210628201654-31e52ba8433b
+	gitlab.com/ais8/go-input v0.0.0-20200503032952-8b67a7a7b28d
+	gitlab.com/ais8/yaml v0.0.0-20210628201654-31e52ba8433b
 	github.com/davecgh/go-spew v1.1.1
 	github.com/denormal/go-gitignore v0.0.0-20180930084346-ae8ad1d07817
 	github.com/docker/docker v20.10.7+incompatible

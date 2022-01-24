@@ -19,8 +19,8 @@ package flags
 import (
 	"fmt"
 
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	s "github.com/cortexlabs/cortex/pkg/lib/strings"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	s "gitlab.com/ais8/cortex/pkg/lib/strings"
 )
 
 const (

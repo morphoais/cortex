@@ -17,11 +17,11 @@ limitations under the License.
 package configreader
 
 import (
-	"github.com/cortexlabs/cortex/pkg/lib/cast"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/files"
-	"github.com/cortexlabs/cortex/pkg/lib/prompt"
-	s "github.com/cortexlabs/cortex/pkg/lib/strings"
+	"/cortex/pkg/lib/cast"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/files"
+	"/cortex/pkg/lib/prompt"
+	s "/cortex/pkg/lib/strings"
 )
 
 type Int32PtrValidation struct {

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cortexlabs/cortex/pkg/lib/exit"
+	"gitlab.com/ais8/cortex/pkg/lib/exit"
 	"github.com/spf13/cobra"
 )
 

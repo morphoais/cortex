@@ -21,12 +21,12 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/pointer"
-	"github.com/cortexlabs/cortex/pkg/operator/config"
-	"github.com/cortexlabs/cortex/pkg/types/spec"
-	"github.com/cortexlabs/cortex/pkg/types/status"
-	"github.com/cortexlabs/cortex/pkg/types/userconfig"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/pointer"
+	"/cortex/pkg/operator/config"
+	"/cortex/pkg/types/spec"
+	"/cortex/pkg/types/status"
+	"/cortex/pkg/types/userconfig"
 )
 
 const (

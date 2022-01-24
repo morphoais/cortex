@@ -19,7 +19,7 @@ package cron
 import (
 	"time"
 
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/errors"
 )
 
 type Cron struct {

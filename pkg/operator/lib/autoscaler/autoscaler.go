@@ -21,14 +21,14 @@ import (
 	"math"
 	"time"
 
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	math2 "github.com/cortexlabs/cortex/pkg/lib/math"
-	"github.com/cortexlabs/cortex/pkg/lib/strings"
-	time2 "github.com/cortexlabs/cortex/pkg/lib/time"
-	"github.com/cortexlabs/cortex/pkg/operator/config"
-	"github.com/cortexlabs/cortex/pkg/operator/operator"
-	"github.com/cortexlabs/cortex/pkg/types/spec"
-	"github.com/cortexlabs/cortex/pkg/types/userconfig"
+	"/cortex/pkg/lib/errors"
+	math2 "/cortex/pkg/lib/math"
+	"/cortex/pkg/lib/strings"
+	time2 "/cortex/pkg/lib/time"
+	"/cortex/pkg/operator/config"
+	"/cortex/pkg/operator/operator"
+	"/cortex/pkg/types/spec"
+	"/cortex/pkg/types/userconfig"
 	kapps "k8s.io/api/apps/v1"
 )
 

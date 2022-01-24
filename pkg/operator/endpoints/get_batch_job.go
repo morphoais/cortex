@@ -20,12 +20,12 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/cortexlabs/cortex/pkg/operator/operator"
-	"github.com/cortexlabs/cortex/pkg/operator/resources"
-	"github.com/cortexlabs/cortex/pkg/operator/resources/job/batchapi"
-	"github.com/cortexlabs/cortex/pkg/operator/schema"
-	"github.com/cortexlabs/cortex/pkg/types/spec"
-	"github.com/cortexlabs/cortex/pkg/types/userconfig"
+	"/cortex/pkg/operator/operator"
+	"/cortex/pkg/operator/resources"
+	"/cortex/pkg/operator/resources/job/batchapi"
+	"/cortex/pkg/operator/schema"
+	"/cortex/pkg/types/spec"
+	"/cortex/pkg/types/userconfig"
 	"github.com/gorilla/mux"
 )
 

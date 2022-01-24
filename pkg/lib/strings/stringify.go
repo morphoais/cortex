@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cortexlabs/yaml"
+	"/yaml"
 )
 
 func Bool(val bool) string {

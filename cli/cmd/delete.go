@@ -20,13 +20,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cortexlabs/cortex/cli/cluster"
-	"github.com/cortexlabs/cortex/cli/types/flags"
-	"github.com/cortexlabs/cortex/pkg/lib/exit"
-	libjson "github.com/cortexlabs/cortex/pkg/lib/json"
-	"github.com/cortexlabs/cortex/pkg/lib/print"
-	"github.com/cortexlabs/cortex/pkg/lib/telemetry"
-	"github.com/cortexlabs/cortex/pkg/operator/schema"
+	"gitlab.com/ais8/cortex/cli/cluster"
+	"gitlab.com/ais8/cortex/cli/types/flags"
+	"gitlab.com/ais8/cortex/pkg/lib/exit"
+	libjson "gitlab.com/ais8/cortex/pkg/lib/json"
+	"gitlab.com/ais8/cortex/pkg/lib/print"
+	"gitlab.com/ais8/cortex/pkg/lib/telemetry"
+	"gitlab.com/ais8/cortex/pkg/operator/schema"
 	"github.com/spf13/cobra"
 )
 

@@ -15,14 +15,14 @@ RUN pip install --upgrade pip && \
 
 RUN apk add --no-cache bash curl gettext jq openssl
 
-RUN curl --location "https://github.com/weaveworks/eksctl/releases/download/0.79.0/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp && \
+RUN curl --location "https://github.com/weaveworks/eksctl/releases/download/v0.67.0/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp && \
     mv /tmp/eksctl /usr/local/bin
 
-RUN curl -o aws-iam-authenticator https://amazon-eks.s3.us-west-2.amazonaws.com/1.18.9/2020-11-02/bin/linux/amd64/aws-iam-authenticator && \
+RUN curl -o aws-iam-authenticator https://amazon-eks.s3.us-west-2.amazonaws.com/1.21.2/2021-07-05/bin/linux/amd64/aws-iam-authenticator && \
     chmod +x ./aws-iam-authenticator && \
     mv ./aws-iam-authenticator /usr/local/bin/aws-iam-authenticator
 
-RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.20.2/bin/linux/amd64/kubectl && \
+RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.22.3/bin/linux/amd64/kubectl && \
     chmod +x ./kubectl && \
     mv ./kubectl /usr/local/bin/kubectl
 

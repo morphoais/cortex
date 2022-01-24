@@ -17,7 +17,7 @@ limitations under the License.
 package cache
 
 import (
-	"github.com/cortexlabs/cortex/pkg/lib/sets/strset"
+	"/cortex/pkg/lib/sets/strset"
 	"gopkg.in/karalabe/cookiejar.v2/collections/deque"
 )
 

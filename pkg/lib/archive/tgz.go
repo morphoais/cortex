@@ -21,9 +21,9 @@ import (
 	"compress/gzip"
 	"io"
 
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/files"
-	"github.com/cortexlabs/cortex/pkg/lib/sets/strset"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/files"
+	"/cortex/pkg/lib/sets/strset"
 )
 
 type tgzArchiver struct {

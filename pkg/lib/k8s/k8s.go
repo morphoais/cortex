@@ -21,8 +21,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/random"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/random"
 	istioclient "istio.io/client-go/pkg/clientset/versioned"
 	istionetworkingclient "istio.io/client-go/pkg/clientset/versioned/typed/networking/v1beta1"
 	kresource "k8s.io/apimachinery/pkg/api/resource"

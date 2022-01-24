@@ -28,17 +28,17 @@ import (
 	"strings"
 
 	"github.com/aws/aws-sdk-go/service/iam"
-	"github.com/cortexlabs/cortex/pkg/consts"
-	"github.com/cortexlabs/cortex/pkg/lib/aws"
-	cr "github.com/cortexlabs/cortex/pkg/lib/configreader"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/hash"
-	libmath "github.com/cortexlabs/cortex/pkg/lib/math"
-	"github.com/cortexlabs/cortex/pkg/lib/pointer"
-	"github.com/cortexlabs/cortex/pkg/lib/sets/strset"
-	"github.com/cortexlabs/cortex/pkg/lib/slices"
-	"github.com/cortexlabs/cortex/pkg/types"
-	"github.com/cortexlabs/yaml"
+	"/cortex/pkg/consts"
+	"/cortex/pkg/lib/aws"
+	cr "/cortex/pkg/lib/configreader"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/hash"
+	libmath "/cortex/pkg/lib/math"
+	"/cortex/pkg/lib/pointer"
+	"/cortex/pkg/lib/sets/strset"
+	"/cortex/pkg/lib/slices"
+	"/cortex/pkg/types"
+	"/yaml"
 )
 
 const (

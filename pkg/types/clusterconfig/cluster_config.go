@@ -17,10 +17,10 @@ limitations under the License.
 package clusterconfig
 
 import (
-	"github.com/cortexlabs/cortex/pkg/consts"
-	cr "github.com/cortexlabs/cortex/pkg/lib/configreader"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/types"
+	"/cortex/pkg/consts"
+	cr "/cortex/pkg/lib/configreader"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/types"
 )
 
 const (

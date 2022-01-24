@@ -17,7 +17,7 @@ limitations under the License.
 package msgpack
 
 import (
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/errors"
 	"github.com/ugorji/go/codec"
 )
 

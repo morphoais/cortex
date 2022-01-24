@@ -22,13 +22,13 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/cortexlabs/cortex/pkg/consts"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/operator/resources"
-	"github.com/cortexlabs/cortex/pkg/operator/resources/job/taskapi"
-	"github.com/cortexlabs/cortex/pkg/operator/schema"
-	"github.com/cortexlabs/cortex/pkg/types/spec"
-	"github.com/cortexlabs/cortex/pkg/types/userconfig"
+	"/cortex/pkg/consts"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/operator/resources"
+	"/cortex/pkg/operator/resources/job/taskapi"
+	"/cortex/pkg/operator/schema"
+	"/cortex/pkg/types/spec"
+	"/cortex/pkg/types/userconfig"
 	"github.com/gorilla/mux"
 )
 

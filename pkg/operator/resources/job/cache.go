@@ -20,9 +20,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/cortexlabs/cortex/pkg/operator/config"
-	"github.com/cortexlabs/cortex/pkg/types/spec"
-	"github.com/cortexlabs/cortex/pkg/types/userconfig"
+	"/cortex/pkg/operator/config"
+	"/cortex/pkg/types/spec"
+	"/cortex/pkg/types/userconfig"
 )
 
 func ListAllInProgressJobKeysByAPI(kind userconfig.Kind, apiName string) ([]spec.JobKey, error) {

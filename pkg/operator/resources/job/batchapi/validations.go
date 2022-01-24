@@ -20,12 +20,12 @@ import (
 	"fmt"
 
 	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/cortexlabs/cortex/pkg/consts"
-	awslib "github.com/cortexlabs/cortex/pkg/lib/aws"
-	cr "github.com/cortexlabs/cortex/pkg/lib/configreader"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/operator/resources/job"
-	"github.com/cortexlabs/cortex/pkg/operator/schema"
+	"/cortex/pkg/consts"
+	awslib "/cortex/pkg/lib/aws"
+	cr "/cortex/pkg/lib/configreader"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/operator/resources/job"
+	"/cortex/pkg/operator/schema"
 	"github.com/gobwas/glob"
 )
 

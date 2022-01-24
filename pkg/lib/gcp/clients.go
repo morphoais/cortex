@@ -21,7 +21,7 @@ import (
 
 	container "cloud.google.com/go/container/apiv1"
 	"cloud.google.com/go/storage"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/errors"
 	"google.golang.org/api/compute/v1"
 	"google.golang.org/api/option"
 )

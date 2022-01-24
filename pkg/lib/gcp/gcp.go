@@ -19,10 +19,10 @@ package gcp
 import (
 	"os"
 
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/files"
-	"github.com/cortexlabs/cortex/pkg/lib/hash"
-	"github.com/cortexlabs/cortex/pkg/lib/json"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/files"
+	"/cortex/pkg/lib/hash"
+	"/cortex/pkg/lib/json"
 )
 
 type Client struct {

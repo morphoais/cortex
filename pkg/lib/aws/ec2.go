@@ -23,10 +23,10 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/parallel"
-	"github.com/cortexlabs/cortex/pkg/lib/sets/strset"
-	s "github.com/cortexlabs/cortex/pkg/lib/strings"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/parallel"
+	"/cortex/pkg/lib/sets/strset"
+	s "/cortex/pkg/lib/strings"
 )
 
 // aws instance types take this form: (\w+)([0-9]+)(\w*).(\w+)

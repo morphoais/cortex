@@ -21,8 +21,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/cortexlabs/cortex/pkg/consts"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
+	"/cortex/pkg/consts"
+	"/cortex/pkg/lib/errors"
 )
 
 const (

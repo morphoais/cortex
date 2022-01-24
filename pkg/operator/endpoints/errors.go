@@ -19,9 +19,9 @@ package endpoints
 import (
 	"fmt"
 
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	s "github.com/cortexlabs/cortex/pkg/lib/strings"
-	"github.com/cortexlabs/cortex/pkg/operator/operator"
+	"/cortex/pkg/lib/errors"
+	s "/cortex/pkg/lib/strings"
+	"/cortex/pkg/operator/operator"
 )
 
 const (

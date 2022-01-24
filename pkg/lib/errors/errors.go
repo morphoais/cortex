@@ -19,7 +19,7 @@ package errors
 import (
 	"strings"
 
-	s "github.com/cortexlabs/cortex/pkg/lib/strings"
+	s "/cortex/pkg/lib/strings"
 )
 
 const (

@@ -17,7 +17,7 @@ limitations under the License.
 package parallel
 
 import (
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/errors"
 )
 
 // Alternative: https://golang.org/pkg/sync/#WaitGroup (with error channel)

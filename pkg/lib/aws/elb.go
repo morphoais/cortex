@@ -21,8 +21,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/elbv2"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/sets/strset"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/sets/strset"
 )
 
 // https://docs.aws.amazon.com/elasticloadbalancing/latest/network/load-balancer-target-groups.html

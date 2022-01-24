@@ -17,8 +17,8 @@ limitations under the License.
 package configreader
 
 import (
-	"github.com/cortexlabs/cortex/pkg/lib/cast"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/cast"
+	"/cortex/pkg/lib/errors"
 )
 
 type Float32ListValidation struct {

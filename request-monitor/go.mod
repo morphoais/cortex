@@ -1,4 +1,4 @@
-module github.com/cortexlabs/cortex/request-monitor
+module /cortex/request-monitor
 
 go 1.14
 

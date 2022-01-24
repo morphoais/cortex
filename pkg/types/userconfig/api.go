@@ -21,12 +21,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cortexlabs/cortex/pkg/consts"
-	"github.com/cortexlabs/cortex/pkg/lib/k8s"
-	s "github.com/cortexlabs/cortex/pkg/lib/strings"
-	"github.com/cortexlabs/cortex/pkg/lib/urls"
-	"github.com/cortexlabs/cortex/pkg/types"
-	"github.com/cortexlabs/yaml"
+	"/cortex/pkg/consts"
+	"/cortex/pkg/lib/k8s"
+	s "/cortex/pkg/lib/strings"
+	"/cortex/pkg/lib/urls"
+	"/cortex/pkg/types"
+	"/yaml"
 	kmeta "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

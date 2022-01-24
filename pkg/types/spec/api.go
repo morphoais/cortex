@@ -25,11 +25,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cortexlabs/cortex/pkg/consts"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/hash"
-	s "github.com/cortexlabs/cortex/pkg/lib/strings"
-	"github.com/cortexlabs/cortex/pkg/types/userconfig"
+	"/cortex/pkg/consts"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/hash"
+	s "/cortex/pkg/lib/strings"
+	"/cortex/pkg/types/userconfig"
 )
 
 type API struct {

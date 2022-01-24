@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"math"
 
-	"github.com/cortexlabs/cortex/pkg/lib/configreader"
-	s "github.com/cortexlabs/cortex/pkg/lib/strings"
+	"/cortex/pkg/lib/configreader"
+	s "/cortex/pkg/lib/strings"
 	kresource "k8s.io/apimachinery/pkg/api/resource"
 )
 

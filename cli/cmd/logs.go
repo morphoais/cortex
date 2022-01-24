@@ -17,11 +17,11 @@ limitations under the License.
 package cmd
 
 import (
-	"github.com/cortexlabs/cortex/cli/cluster"
-	"github.com/cortexlabs/cortex/pkg/lib/exit"
-	"github.com/cortexlabs/cortex/pkg/lib/prompt"
-	"github.com/cortexlabs/cortex/pkg/lib/telemetry"
-	"github.com/cortexlabs/cortex/pkg/types/userconfig"
+	"gitlab.com/ais8/cortex/cli/cluster"
+	"gitlab.com/ais8/cortex/pkg/lib/exit"
+	"gitlab.com/ais8/cortex/pkg/lib/prompt"
+	"gitlab.com/ais8/cortex/pkg/lib/telemetry"
+	"gitlab.com/ais8/cortex/pkg/types/userconfig"
 	"github.com/spf13/cobra"
 )
 

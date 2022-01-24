@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/sets/strset"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/sets/strset"
 	"google.golang.org/api/compute/v1"
 )
 

@@ -17,9 +17,9 @@ limitations under the License.
 package routines
 
 import (
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/telemetry"
-	"github.com/cortexlabs/cortex/pkg/operator/lib/logging"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/telemetry"
+	"/cortex/pkg/operator/lib/logging"
 )
 
 var operatorLogger = logging.GetOperatorLogger()

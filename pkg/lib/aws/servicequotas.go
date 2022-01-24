@@ -22,9 +22,9 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/servicequotas"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/pointer"
-	"github.com/cortexlabs/cortex/pkg/lib/sets/strset"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/pointer"
+	"/cortex/pkg/lib/sets/strset"
 )
 
 var _instanceCategoryRegex = regexp.MustCompile(`[a-zA-Z]+`)

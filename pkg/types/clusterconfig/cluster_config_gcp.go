@@ -20,16 +20,16 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cortexlabs/cortex/pkg/consts"
-	cr "github.com/cortexlabs/cortex/pkg/lib/configreader"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/gcp"
-	"github.com/cortexlabs/cortex/pkg/lib/hash"
-	"github.com/cortexlabs/cortex/pkg/lib/pointer"
-	"github.com/cortexlabs/cortex/pkg/lib/prompt"
-	"github.com/cortexlabs/cortex/pkg/lib/sets/strset"
-	"github.com/cortexlabs/cortex/pkg/lib/slices"
-	"github.com/cortexlabs/cortex/pkg/types"
+	"/cortex/pkg/consts"
+	cr "/cortex/pkg/lib/configreader"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/gcp"
+	"/cortex/pkg/lib/hash"
+	"/cortex/pkg/lib/pointer"
+	"/cortex/pkg/lib/prompt"
+	"/cortex/pkg/lib/sets/strset"
+	"/cortex/pkg/lib/slices"
+	"/cortex/pkg/types"
 )
 
 var (

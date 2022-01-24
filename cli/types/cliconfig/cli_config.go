@@ -17,8 +17,8 @@ limitations under the License.
 package cliconfig
 
 import (
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/sets/strset"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/sets/strset"
 )
 
 type CLIConfig struct {

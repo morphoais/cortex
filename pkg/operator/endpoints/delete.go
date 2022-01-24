@@ -19,7 +19,7 @@ package endpoints
 import (
 	"net/http"
 
-	"github.com/cortexlabs/cortex/pkg/operator/resources"
+	"/cortex/pkg/operator/resources"
 	"github.com/gorilla/mux"
 )
 

@@ -86,7 +86,7 @@ see https://github.com/moby/moby/issues/39302#issuecomment-639687466_
 ### cortexlabs/yaml
 
 1. Check [go-yaml/yaml](https://github.com/go-yaml/yaml/commits/v2) to see if there were new releases
-   since [cortexlabs/yaml](https://github.com/cortexlabs/yaml/commits/v2)
+   since [cortexlabs/yaml](https://gitlab.com/ais8/yaml/commits/v2)
 1. `git clone git@github.com:cortexlabs/yaml.git && cd yaml`
 1. `git remote add upstream https://github.com/go-yaml/yaml && git fetch upstream`
 1. `git merge upstream/v2`
@@ -96,7 +96,7 @@ see https://github.com/moby/moby/issues/39302#issuecomment-639687466_
 ### cortexlabs/go-input
 
 1. Check [tcnksm/go-input](https://github.com/tcnksm/go-input/commits/master) to see if there were new releases
-   since [cortexlabs/go-input](https://github.com/cortexlabs/go-input/commits/master)
+   since [cortexlabs/go-input](https://gitlab.com/ais8/go-input/commits/master)
 1. `git clone git@github.com:cortexlabs/go-input.git && cd go-input`
 1. `git remote add upstream https://github.com/tcnksm/go-input && git fetch upstream`
 1. `git merge upstream/master`
@@ -109,8 +109,8 @@ see https://github.com/moby/moby/issues/39302#issuecomment-639687466_
 1. `go get k8s.io/client-go@v0.17.6 && go get k8s.io/apimachinery@v0.17.6 && go get k8s.io/api@v0.17.6`
 1. `go get istio.io/client-go@1.7.3 && go get istio.io/api@1.7.3`
 1. `go get github.com/aws/amazon-vpc-cni-k8s/pkg/awsutils@v1.7.1`
-1. `go get github.com/cortexlabs/yaml@581aea36a2e4db10f8696587e48cac5248d64f4d`
-1. `go get github.com/cortexlabs/go-input@8b67a7a7b28d1c45f5c588171b3b50148462b247`
+1. `go get gitlab.com/ais8/yaml@581aea36a2e4db10f8696587e48cac5248d64f4d`
+1. `go get gitlab.com/ais8/go-input@8b67a7a7b28d1c45f5c588171b3b50148462b247`
 1. `echo -e '\nreplace github.com/docker/docker => github.com/docker/engine v19.03.12' >> go.mod`
 1. `go get -u github.com/docker/distribution`
 1. `go mod tidy`

@@ -17,12 +17,12 @@ limitations under the License.
 package schema
 
 import (
-	"github.com/cortexlabs/cortex/pkg/types"
-	"github.com/cortexlabs/cortex/pkg/types/clusterconfig"
-	"github.com/cortexlabs/cortex/pkg/types/metrics"
-	"github.com/cortexlabs/cortex/pkg/types/spec"
-	"github.com/cortexlabs/cortex/pkg/types/status"
-	"github.com/cortexlabs/cortex/pkg/types/userconfig"
+	"/cortex/pkg/types"
+	"/cortex/pkg/types/clusterconfig"
+	"/cortex/pkg/types/metrics"
+	"/cortex/pkg/types/spec"
+	"/cortex/pkg/types/status"
+	"/cortex/pkg/types/userconfig"
 )
 
 type InfoResponse struct {

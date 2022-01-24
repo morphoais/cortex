@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/cortexlabs/cortex/pkg/operator/resources/job/batchapi"
-	"github.com/cortexlabs/cortex/pkg/operator/schema"
-	"github.com/cortexlabs/cortex/pkg/types/spec"
-	"github.com/cortexlabs/cortex/pkg/types/userconfig"
+	"/cortex/pkg/operator/resources/job/batchapi"
+	"/cortex/pkg/operator/schema"
+	"/cortex/pkg/types/spec"
+	"/cortex/pkg/types/userconfig"
 	"github.com/gorilla/mux"
 )
 

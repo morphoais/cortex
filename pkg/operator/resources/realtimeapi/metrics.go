@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/parallel"
-	"github.com/cortexlabs/cortex/pkg/operator/config"
-	"github.com/cortexlabs/cortex/pkg/types/metrics"
-	"github.com/cortexlabs/cortex/pkg/types/spec"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/parallel"
+	"/cortex/pkg/operator/config"
+	"/cortex/pkg/types/metrics"
+	"/cortex/pkg/types/spec"
 	promv1 "github.com/prometheus/client_golang/api/prometheus/v1"
 	"github.com/prometheus/common/model"
 )

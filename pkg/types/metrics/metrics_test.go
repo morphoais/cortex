@@ -19,7 +19,7 @@ package metrics
 import (
 	"testing"
 
-	"github.com/cortexlabs/cortex/pkg/lib/pointer"
+	"/cortex/pkg/lib/pointer"
 	"github.com/stretchr/testify/require"
 )
 

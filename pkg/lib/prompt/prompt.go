@@ -21,10 +21,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/exit"
-	s "github.com/cortexlabs/cortex/pkg/lib/strings"
-	input "github.com/cortexlabs/go-input"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/exit"
+	s "/cortex/pkg/lib/strings"
+	input "/go-input"
 )
 
 var _ui = &input.UI{

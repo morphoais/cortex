@@ -19,8 +19,8 @@ package urls
 import (
 	"fmt"
 
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	s "github.com/cortexlabs/cortex/pkg/lib/strings"
+	"/cortex/pkg/lib/errors"
+	s "/cortex/pkg/lib/strings"
 )
 
 const (

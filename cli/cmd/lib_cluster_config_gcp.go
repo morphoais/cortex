@@ -22,13 +22,13 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/cortexlabs/cortex/pkg/consts"
-	cr "github.com/cortexlabs/cortex/pkg/lib/configreader"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/files"
-	"github.com/cortexlabs/cortex/pkg/lib/gcp"
-	"github.com/cortexlabs/cortex/pkg/lib/prompt"
-	"github.com/cortexlabs/cortex/pkg/types/clusterconfig"
+	"gitlab.com/ais8/cortex/pkg/consts"
+	cr "gitlab.com/ais8/cortex/pkg/lib/configreader"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/files"
+	"gitlab.com/ais8/cortex/pkg/lib/gcp"
+	"gitlab.com/ais8/cortex/pkg/lib/prompt"
+	"gitlab.com/ais8/cortex/pkg/types/clusterconfig"
 )
 
 var _cachedGCPClusterConfigRegex = regexp.MustCompile(`^cluster-gcp_\S+\.yaml$`)

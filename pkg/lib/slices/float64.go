@@ -17,7 +17,7 @@ limitations under the License.
 package slices
 
 import (
-	s "github.com/cortexlabs/cortex/pkg/lib/strings"
+	s "/cortex/pkg/lib/strings"
 )
 
 func HasFloat64(list []float64, query float64) bool {

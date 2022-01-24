@@ -116,9 +116,9 @@ setup(
         "Intended Audience :: Developers",
     ],
     project_urls={
-        "Bug Reports": "https://github.com/cortexlabs/cortex/issues",
+        "Bug Reports": "https://gitlab.com/ais8/cortex/issues",
         "Community": "https://gitter.im/cortexlabs/cortex",
         "Docs": "https://docs.cortex.dev",
-        "Source Code": "https://github.com/cortexlabs/cortex",
+        "Source Code": "https://gitlab.com/ais8/cortex",
     },
 )

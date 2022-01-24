@@ -19,7 +19,7 @@ package schema
 import (
 	"encoding/json"
 
-	"github.com/cortexlabs/cortex/pkg/types/spec"
+	"/cortex/pkg/types/spec"
 )
 
 type ItemList struct {

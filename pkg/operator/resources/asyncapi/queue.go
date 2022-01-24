@@ -21,8 +21,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/sqs"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/operator/config"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/operator/config"
 )
 
 func createFIFOQueue(apiName string, deploymentID string, tags map[string]string) (string, error) {

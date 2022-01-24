@@ -17,11 +17,11 @@ limitations under the License.
 package realtimeapi
 
 import (
-	"github.com/cortexlabs/cortex/pkg/lib/k8s"
-	"github.com/cortexlabs/cortex/pkg/lib/pointer"
-	"github.com/cortexlabs/cortex/pkg/operator/operator"
-	"github.com/cortexlabs/cortex/pkg/types/spec"
-	"github.com/cortexlabs/cortex/pkg/types/userconfig"
+	"/cortex/pkg/lib/k8s"
+	"/cortex/pkg/lib/pointer"
+	"/cortex/pkg/operator/operator"
+	"/cortex/pkg/types/spec"
+	"/cortex/pkg/types/userconfig"
 	istioclientnetworking "istio.io/client-go/pkg/apis/networking/v1beta1"
 	kapps "k8s.io/api/apps/v1"
 	kcore "k8s.io/api/core/v1"

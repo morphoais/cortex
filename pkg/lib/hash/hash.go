@@ -21,8 +21,8 @@ import (
 	"encoding/hex"
 	"strings"
 
-	"github.com/cortexlabs/cortex/pkg/lib/files"
-	s "github.com/cortexlabs/cortex/pkg/lib/strings"
+	"/cortex/pkg/lib/files"
+	s "/cortex/pkg/lib/strings"
 )
 
 // Bytes will trim to 63 characters because e.g. K8s labels must be < 64

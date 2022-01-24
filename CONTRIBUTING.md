@@ -98,7 +98,7 @@ gcloud init
 Clone the project:
 
 ```bash
-git clone https://github.com/cortexlabs/cortex.git
+git clone https://gitlab.com/ais8/cortex.git
 cd cortex
 ```
 

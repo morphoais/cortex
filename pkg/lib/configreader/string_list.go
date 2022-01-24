@@ -17,9 +17,9 @@ limitations under the License.
 package configreader
 
 import (
-	"github.com/cortexlabs/cortex/pkg/lib/cast"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/slices"
+	"/cortex/pkg/lib/cast"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/slices"
 )
 
 type StringListValidation struct {

@@ -21,11 +21,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cortexlabs/cortex/pkg/lib/console"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	libmath "github.com/cortexlabs/cortex/pkg/lib/math"
-	"github.com/cortexlabs/cortex/pkg/lib/pointer"
-	s "github.com/cortexlabs/cortex/pkg/lib/strings"
+	"/cortex/pkg/lib/console"
+	"/cortex/pkg/lib/errors"
+	libmath "/cortex/pkg/lib/math"
+	"/cortex/pkg/lib/pointer"
+	s "/cortex/pkg/lib/strings"
 )
 
 type Table struct {

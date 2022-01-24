@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/cortexlabs/cortex/pkg/consts"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/files"
-	"github.com/cortexlabs/cortex/pkg/lib/k8s"
-	libmath "github.com/cortexlabs/cortex/pkg/lib/math"
-	"github.com/cortexlabs/cortex/pkg/lib/sets/strset"
-	s "github.com/cortexlabs/cortex/pkg/lib/strings"
-	"github.com/cortexlabs/cortex/pkg/types"
-	"github.com/cortexlabs/cortex/pkg/types/userconfig"
+	"/cortex/pkg/consts"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/files"
+	"/cortex/pkg/lib/k8s"
+	libmath "/cortex/pkg/lib/math"
+	"/cortex/pkg/lib/sets/strset"
+	s "/cortex/pkg/lib/strings"
+	"/cortex/pkg/types"
+	"/cortex/pkg/types/userconfig"
 )
 
 const (

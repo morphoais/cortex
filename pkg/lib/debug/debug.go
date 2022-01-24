@@ -20,9 +20,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	s "github.com/cortexlabs/cortex/pkg/lib/strings"
-	"github.com/cortexlabs/yaml"
+	"/cortex/pkg/lib/errors"
+	s "/cortex/pkg/lib/strings"
+	"/yaml"
 	"github.com/davecgh/go-spew/spew"
 )
 

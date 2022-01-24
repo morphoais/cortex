@@ -17,10 +17,10 @@ limitations under the License.
 package clusterconfig
 
 import (
-	"github.com/cortexlabs/cortex/pkg/lib/aws"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/sets/strset"
-	s "github.com/cortexlabs/cortex/pkg/lib/strings"
+	"/cortex/pkg/lib/aws"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/sets/strset"
+	s "/cortex/pkg/lib/strings"
 )
 
 var _azBlacklist = strset.New("us-east-1e")

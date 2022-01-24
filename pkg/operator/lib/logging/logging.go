@@ -21,7 +21,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cortexlabs/cortex/pkg/types/userconfig"
+	"/cortex/pkg/types/userconfig"
 	"go.uber.org/zap"
 )
 

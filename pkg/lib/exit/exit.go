@@ -19,8 +19,8 @@ package exit
 import (
 	"os"
 
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/telemetry"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/telemetry"
 )
 
 func Ok() {

@@ -19,7 +19,7 @@ package table
 import (
 	"fmt"
 
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/errors"
 )
 
 const (

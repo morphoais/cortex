@@ -28,7 +28,7 @@ setup(
     author="cortex.dev",
     author_email="dev@cortex.dev",
     license="Apache License 2.0",
-    url="https:/github.com/cortexlabs/cortex",
+    url="https:/gitlab.com/ais8/cortex",
     setup_requires=(["setuptools", "wheel"]),
     packages=find_packages(),
     install_requires=install_requires,
@@ -40,9 +40,9 @@ setup(
         "Intended Audience :: Developers",
     ],
     project_urls={
-        "Bug Reports": "https://github.com/cortexlabs/cortex/issues",
+        "Bug Reports": "https://gitlab.com/ais8/cortex/issues",
         "Chat with us": "https://gitter.im/cortexlabs/cortex",
         "Documentation": "https://docs.cortex.dev",
-        "Source Code": "https://github.com/cortexlabs/cortex",
+        "Source Code": "https://gitlab.com/ais8/cortex",
     },
 )

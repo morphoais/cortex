@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cortexlabs/cortex/pkg/lib/sets/strset"
+	"gitlab.com/ais8/cortex/pkg/lib/sets/strset"
 )
 
 var (

@@ -23,10 +23,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cortexlabs/cortex/pkg/lib/exit"
-	libmath "github.com/cortexlabs/cortex/pkg/lib/math"
-	s "github.com/cortexlabs/cortex/pkg/lib/strings"
-	libtime "github.com/cortexlabs/cortex/pkg/lib/time"
+	"gitlab.com/ais8/cortex/pkg/lib/exit"
+	libmath "gitlab.com/ais8/cortex/pkg/lib/math"
+	s "gitlab.com/ais8/cortex/pkg/lib/strings"
+	libtime "gitlab.com/ais8/cortex/pkg/lib/time"
 )
 
 func getTerminalWidth() int {

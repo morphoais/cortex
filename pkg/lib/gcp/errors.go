@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/pointer"
-	s "github.com/cortexlabs/cortex/pkg/lib/strings"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/pointer"
+	s "/cortex/pkg/lib/strings"
 	"google.golang.org/api/googleapi"
 )
 

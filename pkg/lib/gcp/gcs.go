@@ -23,10 +23,10 @@ import (
 	"strings"
 
 	"cloud.google.com/go/storage"
-	"github.com/cortexlabs/cortex/pkg/lib/errors"
-	"github.com/cortexlabs/cortex/pkg/lib/json"
-	"github.com/cortexlabs/cortex/pkg/lib/sets/strset"
-	s "github.com/cortexlabs/cortex/pkg/lib/strings"
+	"/cortex/pkg/lib/errors"
+	"/cortex/pkg/lib/json"
+	"/cortex/pkg/lib/sets/strset"
+	s "/cortex/pkg/lib/strings"
 	"google.golang.org/api/iterator"
 )
 

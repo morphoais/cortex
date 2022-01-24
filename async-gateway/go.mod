@@ -1,6 +1,6 @@
-module github.com/cortexlabs/async-gateway
+module gitlab.com/ais8/async-gateway
 
-go 1.15
+go 1.17
 
 require (
 	github.com/aws/aws-sdk-go v1.37.23
