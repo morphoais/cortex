@@ -21,7 +21,7 @@ import (
 	"os"
 	"strings"
 
-	"gitlab.com/ais8/cortex/pkg/lib/console"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/console"
 )
 
 var _maxBoldLength = 150

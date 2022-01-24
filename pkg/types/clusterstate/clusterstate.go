@@ -21,11 +21,11 @@ import (
 	"time"
 
 	"github.com/aws/aws-sdk-go/service/cloudformation"
-	"gitlab.com/ais8/cortex/pkg/lib/aws"
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	"gitlab.com/ais8/cortex/pkg/lib/sets/strset"
-	"gitlab.com/ais8/cortex/pkg/lib/table"
-	"gitlab.com/ais8/cortex/pkg/types/clusterconfig"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/aws"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/sets/strset"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/table"
+	"gitlab.com/g-ogawa/cortex/pkg/types/clusterconfig"
 )
 
 const (

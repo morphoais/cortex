@@ -22,7 +22,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/service/iam"
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
 )
 
 const _administratorAccessARN = "arn:aws:iam::aws:policy/AdministratorAccess"

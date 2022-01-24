@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"gitlab.com/ais8/yaml"
+	"gitlab.com/g-ogawa/yaml"
 )
 
 func Bool(val bool) string {

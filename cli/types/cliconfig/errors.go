@@ -19,9 +19,9 @@ package cliconfig
 import (
 	"fmt"
 
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	s "gitlab.com/ais8/cortex/pkg/lib/strings"
-	"gitlab.com/ais8/cortex/pkg/types"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	s "gitlab.com/g-ogawa/cortex/pkg/lib/strings"
+	"gitlab.com/g-ogawa/cortex/pkg/types"
 )
 
 const (

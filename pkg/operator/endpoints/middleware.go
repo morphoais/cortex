@@ -20,11 +20,11 @@ import (
 	"context"
 	"net/http"
 
-	"gitlab.com/ais8/cortex/pkg/consts"
-	"gitlab.com/ais8/cortex/pkg/lib/aws"
-	"gitlab.com/ais8/cortex/pkg/lib/sets/strset"
-	"gitlab.com/ais8/cortex/pkg/lib/telemetry"
-	"gitlab.com/ais8/cortex/pkg/operator/config"
+	"gitlab.com/g-ogawa/cortex/pkg/consts"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/aws"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/sets/strset"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/telemetry"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/config"
 )
 
 var _cachedClientIDs = strset.New()

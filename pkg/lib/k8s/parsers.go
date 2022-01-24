@@ -19,7 +19,7 @@ package k8s
 import (
 	"time"
 
-	s "gitlab.com/ais8/cortex/pkg/lib/strings"
+	s "gitlab.com/g-ogawa/cortex/pkg/lib/strings"
 	kmeta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
 )

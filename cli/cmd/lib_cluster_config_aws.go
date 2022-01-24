@@ -22,19 +22,19 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"gitlab.com/ais8/cortex/pkg/consts"
-	"gitlab.com/ais8/cortex/pkg/lib/aws"
-	cr "gitlab.com/ais8/cortex/pkg/lib/configreader"
-	"gitlab.com/ais8/cortex/pkg/lib/console"
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	"gitlab.com/ais8/cortex/pkg/lib/files"
-	"gitlab.com/ais8/cortex/pkg/lib/maps"
-	"gitlab.com/ais8/cortex/pkg/lib/pointer"
-	"gitlab.com/ais8/cortex/pkg/lib/prompt"
-	s "gitlab.com/ais8/cortex/pkg/lib/strings"
-	"gitlab.com/ais8/cortex/pkg/lib/table"
-	"gitlab.com/ais8/cortex/pkg/types/clusterconfig"
-	"gitlab.com/ais8/yaml"
+	"gitlab.com/g-ogawa/cortex/pkg/consts"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/aws"
+	cr "gitlab.com/g-ogawa/cortex/pkg/lib/configreader"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/console"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/files"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/maps"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/pointer"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/prompt"
+	s "gitlab.com/g-ogawa/cortex/pkg/lib/strings"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/table"
+	"gitlab.com/g-ogawa/cortex/pkg/types/clusterconfig"
+	"gitlab.com/g-ogawa/yaml"
 )
 
 var _cachedClusterConfigRegex = regexp.MustCompile(`^cluster_\S+\.yaml$`)
@@ -90,7 +90,7 @@ func getNewClusterAccessConfig(clusterConfigFile string) (*clusterconfig.AccessC
 
 func getClusterAccessConfigWithCache() (*clusterconfig.AccessConfig, error) {
 	accessConfig := &clusterconfig.AccessConfig{
-		ImageManager: "quay.io/cortexlabs/manager:" + consts.CortexVersion,
+		ImageManager: "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/manager:" + consts.CortexVersion,
 	}
 
 	cachedPaths := existingCachedClusterConfigPaths()

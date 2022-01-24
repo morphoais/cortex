@@ -22,13 +22,13 @@ import (
 	"runtime"
 	"strings"
 
-	"gitlab.com/ais8/cortex/pkg/consts"
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	s "gitlab.com/ais8/cortex/pkg/lib/strings"
-	"gitlab.com/ais8/cortex/pkg/lib/urls"
-	"gitlab.com/ais8/cortex/pkg/types"
-	"gitlab.com/ais8/cortex/pkg/types/clusterconfig"
-	"gitlab.com/ais8/cortex/pkg/types/userconfig"
+	"gitlab.com/g-ogawa/cortex/pkg/consts"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	s "gitlab.com/g-ogawa/cortex/pkg/lib/strings"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/urls"
+	"gitlab.com/g-ogawa/cortex/pkg/types"
+	"gitlab.com/g-ogawa/cortex/pkg/types/clusterconfig"
+	"gitlab.com/g-ogawa/cortex/pkg/types/userconfig"
 )
 
 const (

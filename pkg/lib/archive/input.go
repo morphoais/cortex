@@ -17,7 +17,7 @@ limitations under the License.
 package archive
 
 import (
-	"gitlab.com/ais8/cortex/pkg/lib/files"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/files"
 )
 
 type Input struct {

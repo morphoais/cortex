@@ -19,10 +19,10 @@ package cluster
 import (
 	"path/filepath"
 
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	"gitlab.com/ais8/cortex/pkg/lib/json"
-	s "gitlab.com/ais8/cortex/pkg/lib/strings"
-	"gitlab.com/ais8/cortex/pkg/operator/schema"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/json"
+	s "gitlab.com/g-ogawa/cortex/pkg/lib/strings"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/schema"
 )
 
 func Deploy(operatorConfig OperatorConfig, configPath string, deploymentBytesMap map[string][]byte, force bool) ([]schema.DeployResult, error) {

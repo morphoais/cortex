@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"gitlab.com/ais8/cortex/pkg/operator/resources/job/taskapi"
-	"gitlab.com/ais8/cortex/pkg/operator/schema"
-	"gitlab.com/ais8/cortex/pkg/types/spec"
-	"gitlab.com/ais8/cortex/pkg/types/userconfig"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/resources/job/taskapi"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/schema"
+	"gitlab.com/g-ogawa/cortex/pkg/types/spec"
+	"gitlab.com/g-ogawa/cortex/pkg/types/userconfig"
 	"github.com/gorilla/mux"
 )
 

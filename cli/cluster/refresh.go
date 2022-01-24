@@ -17,10 +17,10 @@ limitations under the License.
 package cluster
 
 import (
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	"gitlab.com/ais8/cortex/pkg/lib/json"
-	s "gitlab.com/ais8/cortex/pkg/lib/strings"
-	"gitlab.com/ais8/cortex/pkg/operator/schema"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/json"
+	s "gitlab.com/g-ogawa/cortex/pkg/lib/strings"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/schema"
 )
 
 func Refresh(operatorConfig OperatorConfig, apiName string, force bool) (schema.RefreshResponse, error) {

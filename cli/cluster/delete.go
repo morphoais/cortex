@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"path"
 
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	"gitlab.com/ais8/cortex/pkg/lib/json"
-	"gitlab.com/ais8/cortex/pkg/lib/prompt"
-	s "gitlab.com/ais8/cortex/pkg/lib/strings"
-	"gitlab.com/ais8/cortex/pkg/operator/schema"
-	"gitlab.com/ais8/cortex/pkg/types/userconfig"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/json"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/prompt"
+	s "gitlab.com/g-ogawa/cortex/pkg/lib/strings"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/schema"
+	"gitlab.com/g-ogawa/cortex/pkg/types/userconfig"
 )
 
 func Delete(operatorConfig OperatorConfig, apiName string, keepCache bool, force bool) (schema.DeleteResponse, error) {

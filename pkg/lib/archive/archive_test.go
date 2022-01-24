@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gitlab.com/ais8/cortex/pkg/lib/files"
-	"gitlab.com/ais8/cortex/pkg/lib/maps"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/files"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/maps"
 	"github.com/stretchr/testify/require"
 )
 

@@ -1,4 +1,4 @@
-module gitlab.com/ais8/async-gateway
+module gitlab.com/g-ogawa/async-gateway
 
 go 1.17
 

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	"gitlab.com/ais8/cortex/pkg/operator/config"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/config"
 	"github.com/prometheus/common/model"
 )
 

@@ -23,17 +23,17 @@ import (
 	"reflect"
 	"strings"
 
-	"gitlab.com/ais8/cortex/pkg/lib/cast"
-	"gitlab.com/ais8/cortex/pkg/lib/debug"
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	"gitlab.com/ais8/cortex/pkg/lib/exit"
-	"gitlab.com/ais8/cortex/pkg/lib/files"
-	"gitlab.com/ais8/cortex/pkg/lib/json"
-	"gitlab.com/ais8/cortex/pkg/lib/maps"
-	"gitlab.com/ais8/cortex/pkg/lib/prompt"
-	"gitlab.com/ais8/cortex/pkg/lib/slices"
-	s "gitlab.com/ais8/cortex/pkg/lib/strings"
-	"gitlab.com/ais8/yaml"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/cast"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/debug"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/exit"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/files"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/json"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/maps"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/prompt"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/slices"
+	s "gitlab.com/g-ogawa/cortex/pkg/lib/strings"
+	"gitlab.com/g-ogawa/yaml"
 )
 
 type StructFieldValidation struct {

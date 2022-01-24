@@ -20,9 +20,9 @@ import (
 	"context"
 	"reflect"
 
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	"gitlab.com/ais8/cortex/pkg/lib/sets/strset"
-	"gitlab.com/ais8/cortex/pkg/lib/urls"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/sets/strset"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/urls"
 	istionetworking "istio.io/api/networking/v1beta1"
 	istioclientnetworking "istio.io/client-go/pkg/apis/networking/v1beta1"
 	kerrors "k8s.io/apimachinery/pkg/api/errors"

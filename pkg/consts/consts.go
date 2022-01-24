@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"gitlab.com/ais8/cortex/pkg/lib/sets/strset"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/sets/strset"
 )
 
 var (
@@ -59,5 +59,5 @@ func defaultRegistry() string {
 	if registryOverride := os.Getenv("CORTEX_DEV_DEFAULT_PREDICTOR_IMAGE_REGISTRY"); registryOverride != "" {
 		return registryOverride
 	}
-	return "quay.io/cortexlabs"
+	return "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs"
 }

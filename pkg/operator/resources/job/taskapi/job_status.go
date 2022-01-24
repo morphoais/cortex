@@ -17,11 +17,11 @@ limitations under the License.
 package taskapi
 
 import (
-	"gitlab.com/ais8/cortex/pkg/operator/config"
-	"gitlab.com/ais8/cortex/pkg/operator/operator"
-	"gitlab.com/ais8/cortex/pkg/operator/resources/job"
-	"gitlab.com/ais8/cortex/pkg/types/spec"
-	"gitlab.com/ais8/cortex/pkg/types/status"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/config"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/operator"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/resources/job"
+	"gitlab.com/g-ogawa/cortex/pkg/types/spec"
+	"gitlab.com/g-ogawa/cortex/pkg/types/status"
 	kbatch "k8s.io/api/batch/v1"
 	kcore "k8s.io/api/core/v1"
 )

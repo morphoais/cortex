@@ -25,9 +25,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	"gitlab.com/ais8/cortex/pkg/lib/files"
-	"gitlab.com/ais8/cortex/pkg/lib/sets/strset"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/files"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/sets/strset"
 )
 
 type tarArchiver struct {

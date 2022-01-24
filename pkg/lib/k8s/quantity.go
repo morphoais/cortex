@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"math"
 
-	"gitlab.com/ais8/cortex/pkg/lib/configreader"
-	s "gitlab.com/ais8/cortex/pkg/lib/strings"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/configreader"
+	s "gitlab.com/g-ogawa/cortex/pkg/lib/strings"
 	kresource "k8s.io/apimachinery/pkg/api/resource"
 )
 

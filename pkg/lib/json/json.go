@@ -21,8 +21,8 @@ import (
 	"encoding/json"
 	"path/filepath"
 
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	"gitlab.com/ais8/cortex/pkg/lib/files"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/files"
 )
 
 func MarshalIndent(obj interface{}) ([]byte, error) {

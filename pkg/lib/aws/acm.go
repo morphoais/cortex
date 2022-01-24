@@ -19,7 +19,7 @@ package aws
 import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/acm"
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
 )
 
 func (c *Client) DoesCertificateExist(sslCertificateARN string) (bool, error) {

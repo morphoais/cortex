@@ -19,8 +19,8 @@ package slices
 import (
 	"strconv"
 
-	libmath "gitlab.com/ais8/cortex/pkg/lib/math"
-	"gitlab.com/ais8/cortex/pkg/lib/sets/strset"
+	libmath "gitlab.com/g-ogawa/cortex/pkg/lib/math"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/sets/strset"
 )
 
 func HasString(list []string, query string) bool {

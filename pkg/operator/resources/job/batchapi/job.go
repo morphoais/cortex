@@ -19,14 +19,14 @@ package batchapi
 import (
 	"time"
 
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	"gitlab.com/ais8/cortex/pkg/lib/telemetry"
-	"gitlab.com/ais8/cortex/pkg/operator/config"
-	"gitlab.com/ais8/cortex/pkg/operator/lib/routines"
-	"gitlab.com/ais8/cortex/pkg/operator/operator"
-	"gitlab.com/ais8/cortex/pkg/operator/resources/job"
-	"gitlab.com/ais8/cortex/pkg/operator/schema"
-	"gitlab.com/ais8/cortex/pkg/types/spec"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/telemetry"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/config"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/lib/routines"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/operator"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/resources/job"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/schema"
+	"gitlab.com/g-ogawa/cortex/pkg/types/spec"
 )
 
 func DryRun(submission *schema.BatchJobSubmission) ([]string, error) {

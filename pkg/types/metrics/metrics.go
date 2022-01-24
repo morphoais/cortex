@@ -17,8 +17,8 @@ limitations under the License.
 package metrics
 
 import (
-	"gitlab.com/ais8/cortex/pkg/lib/pointer"
-	"gitlab.com/ais8/cortex/pkg/lib/slices"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/pointer"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/slices"
 )
 
 type Metrics struct {

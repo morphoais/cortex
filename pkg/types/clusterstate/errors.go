@@ -19,7 +19,7 @@ package clusterstate
 import (
 	"fmt"
 
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
 )
 
 const (

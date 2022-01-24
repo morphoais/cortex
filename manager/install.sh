@@ -425,7 +425,7 @@ function setup_istio() {
 }
 
 function start_pre_download_images() {
-  registry="quay.io/cortexlabs"
+  registry="114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs"
   if [ -n "$CORTEX_DEV_DEFAULT_PREDICTOR_IMAGE_REGISTRY" ]; then
     registry="$CORTEX_DEV_DEFAULT_PREDICTOR_IMAGE_REGISTRY"
   fi

@@ -17,9 +17,9 @@ limitations under the License.
 package routines
 
 import (
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	"gitlab.com/ais8/cortex/pkg/lib/exit"
-	"gitlab.com/ais8/cortex/pkg/lib/telemetry"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/exit"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/telemetry"
 )
 
 func RunWithPanicHandler(f func(), exitOnPanic bool) {

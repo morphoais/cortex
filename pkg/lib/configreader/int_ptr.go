@@ -17,11 +17,11 @@ limitations under the License.
 package configreader
 
 import (
-	"gitlab.com/ais8/cortex/pkg/lib/cast"
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	"gitlab.com/ais8/cortex/pkg/lib/files"
-	"gitlab.com/ais8/cortex/pkg/lib/prompt"
-	s "gitlab.com/ais8/cortex/pkg/lib/strings"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/cast"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/files"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/prompt"
+	s "gitlab.com/g-ogawa/cortex/pkg/lib/strings"
 )
 
 type IntPtrValidation struct {

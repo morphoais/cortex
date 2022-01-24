@@ -19,14 +19,14 @@ package operator
 import (
 	"strings"
 
-	"gitlab.com/ais8/cortex/pkg/lib/aws"
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	"gitlab.com/ais8/cortex/pkg/lib/k8s"
-	"gitlab.com/ais8/cortex/pkg/lib/sets/strset"
-	"gitlab.com/ais8/cortex/pkg/lib/telemetry"
-	"gitlab.com/ais8/cortex/pkg/operator/config"
-	"gitlab.com/ais8/cortex/pkg/operator/lib/logging"
-	"gitlab.com/ais8/cortex/pkg/types/clusterconfig"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/aws"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/k8s"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/sets/strset"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/telemetry"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/config"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/lib/logging"
+	"gitlab.com/g-ogawa/cortex/pkg/types/clusterconfig"
 	kmeta "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

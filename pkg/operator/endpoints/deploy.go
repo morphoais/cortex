@@ -19,9 +19,9 @@ package endpoints
 import (
 	"net/http"
 
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	"gitlab.com/ais8/cortex/pkg/lib/files"
-	"gitlab.com/ais8/cortex/pkg/operator/resources"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/files"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/resources"
 )
 
 func Deploy(w http.ResponseWriter, r *http.Request) {

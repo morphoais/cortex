@@ -19,12 +19,12 @@ package cliconfig
 import (
 	"strings"
 
-	cr "gitlab.com/ais8/cortex/pkg/lib/configreader"
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	"gitlab.com/ais8/cortex/pkg/lib/pointer"
-	"gitlab.com/ais8/cortex/pkg/lib/table"
-	"gitlab.com/ais8/cortex/pkg/lib/urls"
-	"gitlab.com/ais8/cortex/pkg/types"
+	cr "gitlab.com/g-ogawa/cortex/pkg/lib/configreader"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/pointer"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/table"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/urls"
+	"gitlab.com/g-ogawa/cortex/pkg/types"
 )
 
 type Environment struct {

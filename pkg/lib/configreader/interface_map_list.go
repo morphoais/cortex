@@ -17,8 +17,8 @@ limitations under the License.
 package configreader
 
 import (
-	"gitlab.com/ais8/cortex/pkg/lib/cast"
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/cast"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
 )
 
 type InterfaceMapListValidation struct {

@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"regexp"
 
-	"gitlab.com/ais8/cortex/pkg/consts"
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	"gitlab.com/ais8/cortex/pkg/lib/files"
-	"gitlab.com/ais8/cortex/pkg/lib/k8s"
-	libmath "gitlab.com/ais8/cortex/pkg/lib/math"
-	"gitlab.com/ais8/cortex/pkg/lib/sets/strset"
-	s "gitlab.com/ais8/cortex/pkg/lib/strings"
-	"gitlab.com/ais8/cortex/pkg/types"
-	"gitlab.com/ais8/cortex/pkg/types/userconfig"
+	"gitlab.com/g-ogawa/cortex/pkg/consts"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/files"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/k8s"
+	libmath "gitlab.com/g-ogawa/cortex/pkg/lib/math"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/sets/strset"
+	s "gitlab.com/g-ogawa/cortex/pkg/lib/strings"
+	"gitlab.com/g-ogawa/cortex/pkg/types"
+	"gitlab.com/g-ogawa/cortex/pkg/types/userconfig"
 )
 
 const (

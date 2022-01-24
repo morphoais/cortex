@@ -20,12 +20,12 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.com/ais8/cortex/cli/types/cliconfig"
-	"gitlab.com/ais8/cortex/pkg/lib/console"
-	"gitlab.com/ais8/cortex/pkg/lib/table"
-	libtime "gitlab.com/ais8/cortex/pkg/lib/time"
-	"gitlab.com/ais8/cortex/pkg/operator/schema"
-	"gitlab.com/ais8/cortex/pkg/types/userconfig"
+	"gitlab.com/g-ogawa/cortex/cli/types/cliconfig"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/console"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/table"
+	libtime "gitlab.com/g-ogawa/cortex/pkg/lib/time"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/schema"
+	"gitlab.com/g-ogawa/cortex/pkg/types/userconfig"
 )
 
 const (

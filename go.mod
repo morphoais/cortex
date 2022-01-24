@@ -1,4 +1,4 @@
-module gitlab.com/ais8/cortex
+module gitlab.com/g-ogawa/cortex
 
 go 1.17
 
@@ -25,8 +25,6 @@ require (
 	github.com/stretchr/testify v1.7.0
 	github.com/ugorji/go/codec v1.1.7
 	github.com/xlab/treeprint v1.0.0
-	gitlab.com/ais8/go-input v0.0.0-20200503032952-8b67a7a7b28d
-	gitlab.com/ais8/yaml v0.0.0-20220124034734-1df755019987
 	go.uber.org/zap v1.19.1
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
 	google.golang.org/api v0.62.0
@@ -105,6 +103,8 @@ require (
 	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/xtgo/uuid v0.0.0-20140804021211-a0b114877d4c // indirect
 	github.com/yusufpapurcu/wmi v1.2.2 // indirect
+	gitlab.com/g-ogawa/go-input v0.0.0-20200503032952-8b67a7a7b28d // indirect
+	gitlab.com/g-ogawa/yaml v0.0.0-20220124054858-84957c40e44e // indirect
 	go.opencensus.io v0.23.0 // indirect
 	go.starlark.net v0.0.0-20211203141949-70c0e40ae128 // indirect
 	go.uber.org/atomic v1.7.0 // indirect

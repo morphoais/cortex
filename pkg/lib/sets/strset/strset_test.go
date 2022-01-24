@@ -19,7 +19,7 @@ package strset_test
 import (
 	"testing"
 
-	"gitlab.com/ais8/cortex/pkg/lib/sets/strset"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/sets/strset"
 	"github.com/stretchr/testify/require"
 )
 

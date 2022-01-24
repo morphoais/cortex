@@ -21,9 +21,9 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.com/ais8/cortex/pkg/lib/aws"
-	"gitlab.com/ais8/cortex/pkg/lib/docker"
-	"gitlab.com/ais8/cortex/pkg/lib/files"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/aws"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/docker"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/files"
 )
 
 var _emailRegex *regexp.Regexp
@@ -122,7 +122,7 @@ func DurationParser(v *DurationValidation) func(string) (interface{}, error) {
 }
 
 func ValidateImageVersion(image, cortexVersion string) (string, error) {
-	if !strings.HasPrefix(image, "quay.io/cortexlabs/") && !strings.HasPrefix(image, "quay.io/cortexlabsdev/") && !strings.HasPrefix(image, "cortexlabs/") && !strings.HasPrefix(image, "cortexlabsdev/") {
+	if !strings.HasPrefix(image, "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/") && !strings.HasPrefix(image, "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabsdev/") && !strings.HasPrefix(image, "cortexlabs/") && !strings.HasPrefix(image, "cortexlabsdev/") {
 		return image, nil
 	}
 

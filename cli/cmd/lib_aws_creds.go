@@ -19,11 +19,11 @@ package cmd
 import (
 	"fmt"
 
-	"gitlab.com/ais8/cortex/pkg/consts"
-	"gitlab.com/ais8/cortex/pkg/lib/aws"
+	"gitlab.com/g-ogawa/cortex/pkg/consts"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/aws"
 
-	"gitlab.com/ais8/cortex/pkg/lib/prompt"
-	"gitlab.com/ais8/cortex/pkg/types/clusterconfig"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/prompt"
+	"gitlab.com/g-ogawa/cortex/pkg/types/clusterconfig"
 )
 
 func newAWSClient(region string) (*aws.Client, error) {

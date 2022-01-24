@@ -19,8 +19,8 @@ package endpoints
 import (
 	"net/http"
 
-	"gitlab.com/ais8/cortex/pkg/operator/config"
-	"gitlab.com/ais8/cortex/pkg/operator/schema"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/config"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/schema"
 )
 
 func VerifyCortex(w http.ResponseWriter, r *http.Request) {

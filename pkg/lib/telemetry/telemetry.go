@@ -22,12 +22,12 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.com/ais8/cortex/pkg/consts"
-	"gitlab.com/ais8/cortex/pkg/lib/cast"
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	"gitlab.com/ais8/cortex/pkg/lib/maps"
-	"gitlab.com/ais8/cortex/pkg/lib/parallel"
-	s "gitlab.com/ais8/cortex/pkg/lib/strings"
+	"gitlab.com/g-ogawa/cortex/pkg/consts"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/cast"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/maps"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/parallel"
+	s "gitlab.com/g-ogawa/cortex/pkg/lib/strings"
 	"github.com/getsentry/sentry-go"
 	"gopkg.in/segmentio/analytics-go.v3"
 )

@@ -11,19 +11,19 @@ mkdir my-api && cd my-api && touch Dockerfile
 Cortex's base Docker images are listed below. Depending on the Cortex Predictor and compute type specified in your API configuration, choose one of these images to use as the base for your Docker image:
 
 <!-- CORTEX_VERSION_BRANCH_STABLE x12 -->
-* Python Predictor (CPU): `quay.io/cortexlabs/python-predictor-cpu:0.31.1`
+* Python Predictor (CPU): `114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/python-predictor-cpu:0.31.1`
 * Python Predictor (GPU): choose one of the following:
-  * `quay.io/cortexlabs/python-predictor-gpu:0.31.1-cuda10.0-cudnn7`
-  * `quay.io/cortexlabs/python-predictor-gpu:0.31.1-cuda10.1-cudnn7`
-  * `quay.io/cortexlabs/python-predictor-gpu:0.31.1-cuda10.1-cudnn8`
-  * `quay.io/cortexlabs/python-predictor-gpu:0.31.1-cuda10.2-cudnn7`
-  * `quay.io/cortexlabs/python-predictor-gpu:0.31.1-cuda10.2-cudnn8`
-  * `quay.io/cortexlabs/python-predictor-gpu:0.31.1-cuda11.0-cudnn8`
-  * `quay.io/cortexlabs/python-predictor-gpu:0.31.1-cuda11.1-cudnn8`
-* Python Predictor (Inferentia): `quay.io/cortexlabs/python-predictor-inf:0.31.1`
-* TensorFlow Predictor (CPU, GPU, Inferentia): `quay.io/cortexlabs/tensorflow-predictor:0.31.1`
-* ONNX Predictor (CPU): `quay.io/cortexlabs/onnx-predictor-cpu:0.31.1`
-* ONNX Predictor (GPU): `quay.io/cortexlabs/onnx-predictor-gpu:0.31.1`
+  * `114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/python-predictor-gpu:0.31.1-cuda10.0-cudnn7`
+  * `114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/python-predictor-gpu:0.31.1-cuda10.1-cudnn7`
+  * `114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/python-predictor-gpu:0.31.1-cuda10.1-cudnn8`
+  * `114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/python-predictor-gpu:0.31.1-cuda10.2-cudnn7`
+  * `114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/python-predictor-gpu:0.31.1-cuda10.2-cudnn8`
+  * `114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/python-predictor-gpu:0.31.1-cuda11.0-cudnn8`
+  * `114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/python-predictor-gpu:0.31.1-cuda11.1-cudnn8`
+* Python Predictor (Inferentia): `114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/python-predictor-inf:0.31.1`
+* TensorFlow Predictor (CPU, GPU, Inferentia): `114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/tensorflow-predictor:0.31.1`
+* ONNX Predictor (CPU): `114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/onnx-predictor-cpu:0.31.1`
+* ONNX Predictor (GPU): `114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/onnx-predictor-gpu:0.31.1`
 
 The sample `Dockerfile` below inherits from Cortex's Python CPU serving image, and installs 3 packages. `tree` is a system package and `pandas` and `rdkit` are Python packages.
 
@@ -31,7 +31,7 @@ The sample `Dockerfile` below inherits from Cortex's Python CPU serving image, a
 ```dockerfile
 # Dockerfile
 
-FROM quay.io/cortexlabs/python-predictor-cpu:0.31.1
+FROM 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/python-predictor-cpu:0.31.1
 
 RUN apt-get update \
     && apt-get install -y tree \
@@ -49,7 +49,7 @@ If you need to upgrade the Python Runtime version on your image, you can follow 
 ```Dockerfile
 # Dockerfile
 
-FROM quay.io/cortexlabs/python-predictor-cpu:0.31.1
+FROM 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/python-predictor-cpu:0.31.1
 
 # upgrade python runtime version
 RUN conda update -n base -c defaults conda
@@ -107,4 +107,4 @@ docker push <repository_url>:latest
   ...
 ```
 
-Note: for TensorFlow Predictors, two containers run together to serve predictions: one runs your Predictor code (`quay.io/cortexlabs/tensorflow-predictor`), and the other is TensorFlow serving to load the SavedModel (`quay.io/cortexlabs/tensorflow-serving-gpu` or `quay.io/cortexlabs/tensorflow-serving-cpu`). There's a second available field `tensorflow_serving_image` that can be used to override the TensorFlow Serving image. Both of the default serving images (`quay.io/cortexlabs/tensorflow-serving-gpu` and `quay.io/cortexlabs/tensorflow-serving-cpu`) are based on the official TensorFlow Serving image (`tensorflow/serving`). Unless a different version of TensorFlow Serving is required, the TensorFlow Serving image shouldn't have to be overridden, since it's only used to load the SavedModel and does not run your Predictor code.
+Note: for TensorFlow Predictors, two containers run together to serve predictions: one runs your Predictor code (`114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/tensorflow-predictor`), and the other is TensorFlow serving to load the SavedModel (`114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/tensorflow-serving-gpu` or `114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/tensorflow-serving-cpu`). There's a second available field `tensorflow_serving_image` that can be used to override the TensorFlow Serving image. Both of the default serving images (`114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/tensorflow-serving-gpu` and `114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/tensorflow-serving-cpu`) are based on the official TensorFlow Serving image (`tensorflow/serving`). Unless a different version of TensorFlow Serving is required, the TensorFlow Serving image shouldn't have to be overridden, since it's only used to load the SavedModel and does not run your Predictor code.

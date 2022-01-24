@@ -17,7 +17,7 @@ limitations under the License.
 package cache
 
 import (
-	"gitlab.com/ais8/cortex/pkg/lib/sets/strset"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/sets/strset"
 	"gopkg.in/karalabe/cookiejar.v2/collections/deque"
 )
 

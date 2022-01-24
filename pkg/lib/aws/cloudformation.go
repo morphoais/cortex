@@ -18,8 +18,8 @@ package aws
 
 import (
 	"github.com/aws/aws-sdk-go/service/cloudformation"
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	"gitlab.com/ais8/cortex/pkg/lib/sets/strset"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/sets/strset"
 )
 
 func (c *Client) ListEKSStacks(controlPlaneStackName string, nodegroupStackNames strset.Set) ([]*cloudformation.StackSummary, error) {

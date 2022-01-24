@@ -76,8 +76,6 @@ sub_cmd=${2:-""}
 registry_push_url=""
 if [ "$provider" = "aws" ]; then
   registry_push_url="$AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com"
-elif [ "$provider" = "gcp" ]; then
-  registry_push_url="$GCR_HOST/$GCP_PROJECT_ID"
 fi
 
 is_registry_logged_in="false"
@@ -113,9 +111,9 @@ function build() {
   build_args=""
 
   tag_args=""
-  if [ -n "$GCP_PROJECT_ID" ]; then
-    tag_args+=" -t $GCR_HOST/$GCP_PROJECT_ID/cortexlabs/$image:$tag"
-  fi
+  # if [ -n "$GCP_PROJECT_ID" ]; then
+  #   tag_args+=" -t $GCR_HOST/$GCP_PROJECT_ID/cortexlabs/$image:$tag"
+  # fi
   if [ -n "$AWS_ACCOUNT_ID" ] && [ -n "$AWS_REGION" ]; then
     tag_args+=" -t $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/cortexlabs/$image:$tag"
   fi
@@ -204,10 +202,8 @@ function validate_env() {
       exit 1
     fi
   elif [ "$provider" = "gcp" ]; then
-    if [ -z ${GCP_PROJECT_ID} ]; then
-      echo "error: environment variables GCP_PROJECT_ID should be exported in dev/config/env.sh"
-      exit 1
-    fi
+    echo "error: no more gcp"
+    exit 1
   fi
 }
 

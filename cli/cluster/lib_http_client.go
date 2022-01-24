@@ -25,14 +25,14 @@ import (
 	"net/http"
 	"time"
 
-	"gitlab.com/ais8/cortex/pkg/consts"
-	"gitlab.com/ais8/cortex/pkg/lib/archive"
-	"gitlab.com/ais8/cortex/pkg/lib/aws"
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	"gitlab.com/ais8/cortex/pkg/lib/files"
-	"gitlab.com/ais8/cortex/pkg/lib/json"
-	"gitlab.com/ais8/cortex/pkg/operator/schema"
-	"gitlab.com/ais8/cortex/pkg/types"
+	"gitlab.com/g-ogawa/cortex/pkg/consts"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/archive"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/aws"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/files"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/json"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/schema"
+	"gitlab.com/g-ogawa/cortex/pkg/types"
 )
 
 type OperatorClient struct {

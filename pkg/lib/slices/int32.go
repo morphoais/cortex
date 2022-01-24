@@ -17,7 +17,7 @@ limitations under the License.
 package slices
 
 import (
-	s "gitlab.com/ais8/cortex/pkg/lib/strings"
+	s "gitlab.com/g-ogawa/cortex/pkg/lib/strings"
 )
 
 func HasInt32(list []int32, query int32) bool {

@@ -17,7 +17,7 @@ limitations under the License.
 package slices
 
 import (
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
 )
 
 const (

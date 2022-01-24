@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"gitlab.com/ais8/cortex/pkg/lib/console"
-	"gitlab.com/ais8/cortex/pkg/lib/pointer"
-	s "gitlab.com/ais8/cortex/pkg/lib/strings"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/console"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/pointer"
+	s "gitlab.com/g-ogawa/cortex/pkg/lib/strings"
 )
 
 type KeyValuePairOpts struct {

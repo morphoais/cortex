@@ -1,6 +1,6 @@
-module /cortex/request-monitor
+module gitlab.com/g-ogawa/cortex/request-monitor
 
-go 1.14
+go 1.17
 
 require (
 	github.com/prometheus/client_golang v1.9.0

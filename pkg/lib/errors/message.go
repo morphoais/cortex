@@ -20,7 +20,7 @@ import (
 	"strings"
 
 	"github.com/aws/aws-sdk-go/aws/awserr"
-	"gitlab.com/ais8/cortex/pkg/lib/print"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/print"
 )
 
 func PrintError(err error, strs ...string) {

@@ -20,7 +20,7 @@ import (
 	"context"
 	"net/http"
 
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
 	"k8s.io/client-go/rest"

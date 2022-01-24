@@ -17,7 +17,7 @@ limitations under the License.
 package main
 
 import (
-	"gitlab.com/ais8/cortex/cli/cmd"
+	"gitlab.com/g-ogawa/cortex/cli/cmd"
 )
 
 func main() {

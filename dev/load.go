@@ -26,8 +26,8 @@ import (
 	"sync"
 	"time"
 
-	"gitlab.com/ais8/cortex/pkg/lib/debug"
-	"gitlab.com/ais8/cortex/pkg/lib/files"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/debug"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/files"
 )
 
 // usage: go run load.go <url> <sample.json>

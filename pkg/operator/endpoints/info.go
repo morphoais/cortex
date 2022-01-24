@@ -22,14 +22,14 @@ import (
 	"sort"
 	"strings"
 
-	"gitlab.com/ais8/cortex/pkg/lib/aws"
-	"gitlab.com/ais8/cortex/pkg/lib/k8s"
-	s "gitlab.com/ais8/cortex/pkg/lib/strings"
-	"gitlab.com/ais8/cortex/pkg/operator/config"
-	"gitlab.com/ais8/cortex/pkg/operator/schema"
-	"gitlab.com/ais8/cortex/pkg/types"
-	"gitlab.com/ais8/cortex/pkg/types/clusterconfig"
-	"gitlab.com/ais8/cortex/pkg/types/userconfig"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/aws"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/k8s"
+	s "gitlab.com/g-ogawa/cortex/pkg/lib/strings"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/config"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/schema"
+	"gitlab.com/g-ogawa/cortex/pkg/types"
+	"gitlab.com/g-ogawa/cortex/pkg/types/clusterconfig"
+	"gitlab.com/g-ogawa/cortex/pkg/types/userconfig"
 	kcore "k8s.io/api/core/v1"
 )
 

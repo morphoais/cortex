@@ -23,12 +23,12 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"gitlab.com/ais8/cortex/pkg/consts"
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	"gitlab.com/ais8/cortex/pkg/operator/resources"
-	"gitlab.com/ais8/cortex/pkg/operator/resources/job/batchapi"
-	"gitlab.com/ais8/cortex/pkg/operator/schema"
-	"gitlab.com/ais8/cortex/pkg/types/userconfig"
+	"gitlab.com/g-ogawa/cortex/pkg/consts"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/resources"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/resources/job/batchapi"
+	"gitlab.com/g-ogawa/cortex/pkg/operator/schema"
+	"gitlab.com/g-ogawa/cortex/pkg/types/userconfig"
 	"github.com/gorilla/mux"
 )
 

@@ -19,7 +19,7 @@ package cron
 import (
 	"time"
 
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
 )
 
 type Cron struct {

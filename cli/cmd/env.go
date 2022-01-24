@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"strings"
 
-	"gitlab.com/ais8/cortex/cli/types/cliconfig"
-	"gitlab.com/ais8/cortex/cli/types/flags"
-	"gitlab.com/ais8/cortex/pkg/lib/exit"
-	libjson "gitlab.com/ais8/cortex/pkg/lib/json"
-	"gitlab.com/ais8/cortex/pkg/lib/print"
-	"gitlab.com/ais8/cortex/pkg/lib/telemetry"
+	"gitlab.com/g-ogawa/cortex/cli/types/cliconfig"
+	"gitlab.com/g-ogawa/cortex/cli/types/flags"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/exit"
+	libjson "gitlab.com/g-ogawa/cortex/pkg/lib/json"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/print"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/telemetry"
 	"github.com/spf13/cobra"
 )
 

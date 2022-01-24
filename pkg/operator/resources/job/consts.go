@@ -16,7 +16,7 @@ limitations under the License.
 
 package job
 
-import "gitlab.com/ais8/cortex/pkg/types/userconfig"
+import "gitlab.com/g-ogawa/cortex/pkg/types/userconfig"
 
 const (
 	_jobsPrefix            = "jobs"

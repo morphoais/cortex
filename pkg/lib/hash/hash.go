@@ -21,8 +21,8 @@ import (
 	"encoding/hex"
 	"strings"
 
-	"gitlab.com/ais8/cortex/pkg/lib/files"
-	s "gitlab.com/ais8/cortex/pkg/lib/strings"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/files"
+	s "gitlab.com/g-ogawa/cortex/pkg/lib/strings"
 )
 
 // Bytes will trim to 63 characters because e.g. K8s labels must be < 64

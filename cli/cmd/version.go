@@ -19,10 +19,10 @@ package cmd
 import (
 	"fmt"
 
-	"gitlab.com/ais8/cortex/cli/cluster"
-	"gitlab.com/ais8/cortex/pkg/consts"
-	"gitlab.com/ais8/cortex/pkg/lib/exit"
-	"gitlab.com/ais8/cortex/pkg/lib/telemetry"
+	"gitlab.com/g-ogawa/cortex/cli/cluster"
+	"gitlab.com/g-ogawa/cortex/pkg/consts"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/exit"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/telemetry"
 	"github.com/spf13/cobra"
 )
 

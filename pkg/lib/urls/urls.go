@@ -21,7 +21,7 @@ import (
 	"regexp"
 	"strings"
 
-	s "gitlab.com/ais8/cortex/pkg/lib/strings"
+	s "gitlab.com/g-ogawa/cortex/pkg/lib/strings"
 )
 
 var (

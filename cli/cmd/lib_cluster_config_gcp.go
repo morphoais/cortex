@@ -22,13 +22,13 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"gitlab.com/ais8/cortex/pkg/consts"
-	cr "gitlab.com/ais8/cortex/pkg/lib/configreader"
-	"gitlab.com/ais8/cortex/pkg/lib/errors"
-	"gitlab.com/ais8/cortex/pkg/lib/files"
-	"gitlab.com/ais8/cortex/pkg/lib/gcp"
-	"gitlab.com/ais8/cortex/pkg/lib/prompt"
-	"gitlab.com/ais8/cortex/pkg/types/clusterconfig"
+	"gitlab.com/g-ogawa/cortex/pkg/consts"
+	cr "gitlab.com/g-ogawa/cortex/pkg/lib/configreader"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/errors"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/files"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/gcp"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/prompt"
+	"gitlab.com/g-ogawa/cortex/pkg/types/clusterconfig"
 )
 
 var _cachedGCPClusterConfigRegex = regexp.MustCompile(`^cluster-gcp_\S+\.yaml$`)
@@ -75,7 +75,7 @@ func getNewGCPClusterAccessConfig(clusterConfigFile string) (*clusterconfig.GCPA
 
 func getGCPClusterAccessConfigWithCache(disallowPrompt bool) (*clusterconfig.GCPAccessConfig, error) {
 	accessConfig := &clusterconfig.GCPAccessConfig{
-		ImageManager: "quay.io/cortexlabs/manager:" + consts.CortexVersion,
+		ImageManager: "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/manager:" + consts.CortexVersion,
 	}
 
 	cachedPaths := existingCachedGCPClusterConfigPaths()

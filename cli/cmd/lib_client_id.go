@@ -17,7 +17,7 @@ limitations under the License.
 package cmd
 
 import (
-	"gitlab.com/ais8/cortex/pkg/lib/files"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/files"
 	"github.com/google/uuid"
 )
 

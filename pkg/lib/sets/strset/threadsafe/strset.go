@@ -19,7 +19,7 @@ package threadsafe
 import (
 	"sync"
 
-	"gitlab.com/ais8/cortex/pkg/lib/sets/strset"
+	"gitlab.com/g-ogawa/cortex/pkg/lib/sets/strset"
 )
 
 // New creates and initializes a new Set.
