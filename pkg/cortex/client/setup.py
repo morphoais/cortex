@@ -53,7 +53,7 @@ class InstallBinary(install):
             if "dev" in cortex_version:
                 cortex_version = "master"
 
-            download_url = f"https://s3-us-west-2.amazonaws.com/get-cortex/{cortex_version}/cli/{platform}/cortex.zip"
+            download_url = f"https://for-mor-cortex.s3.ap-northeast-1.amazonaws.com/cli/linux/{cortex_version}/cortex.zip"
 
             print("downloading cortex cli...")
             with requests.get(download_url, stream=True) as r:
@@ -79,7 +79,7 @@ if pathlib.Path("README.md").is_file():
 
 setup(
     name="cortex",
-    version="0.31.1",  # CORTEX_VERSION
+    version="0.31.2",  # CORTEX_VERSION
     description="Deploy machine learning models to production",
     author="cortex.dev",
     author_email="dev@cortex.dev",

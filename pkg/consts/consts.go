@@ -24,7 +24,7 @@ import (
 )
 
 var (
-	CortexVersion      = "0.31.1" // CORTEX_VERSION
+	CortexVersion      = "0.31.2" // CORTEX_VERSION
 	CortexVersionMinor = "0.31"   // CORTEX_VERSION_MINOR
 
 	SingleModelName = "_cortex_default"
