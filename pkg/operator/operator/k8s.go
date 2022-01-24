@@ -240,7 +240,7 @@ func AsyncGatewayContainers(api spec.API, queueURL string) kcore.Container {
 			},
 		},
 		LivenessProbe: &kcore.Probe{
-			Handler: kcore.Handler{
+			ProbeHandler: kcore.ProbeHandler{
 				HTTPGet: &kcore.HTTPGetAction{
 					Path: "/healthz",
 					Port: intstr.FromInt(8888),
@@ -248,7 +248,7 @@ func AsyncGatewayContainers(api spec.API, queueURL string) kcore.Container {
 			},
 		},
 		ReadinessProbe: &kcore.Probe{
-			Handler: kcore.Handler{
+			ProbeHandler: kcore.ProbeHandler{
 				HTTPGet: &kcore.HTTPGetAction{
 					Path: "/healthz",
 					Port: intstr.FromInt(8888),
@@ -1109,9 +1109,9 @@ func tensorflowServingContainer(api *spec.API, volumeMounts []kcore.VolumeMount,
 		}
 	}
 
-	var probeHandler kcore.Handler
+	var probeHandler kcore.ProbeHandler
 	if len(ports) == 1 {
-		probeHandler = kcore.Handler{
+		probeHandler = kcore.ProbeHandler{
 			TCPSocket: &kcore.TCPSocketAction{
 				Port: intstr.IntOrString{
 					IntVal: _tfBaseServingPortInt32,
@@ -1119,7 +1119,7 @@ func tensorflowServingContainer(api *spec.API, volumeMounts []kcore.VolumeMount,
 			},
 		}
 	} else {
-		probeHandler = kcore.Handler{
+		probeHandler = kcore.ProbeHandler{
 			Exec: &kcore.ExecAction{
 				Command: []string{"/bin/bash", "-c", `test $(nc -zv localhost ` + fmt.Sprintf("%d-%d", _tfBaseServingPortInt32, _tfBaseServingPortInt32+int32(len(ports))-1) + ` 2>&1 | wc -l) -eq ` + fmt.Sprintf("%d", len(ports))},
 			},
@@ -1140,7 +1140,7 @@ func tensorflowServingContainer(api *spec.API, volumeMounts []kcore.VolumeMount,
 			PeriodSeconds:       5,
 			SuccessThreshold:    1,
 			FailureThreshold:    2,
-			Handler:             probeHandler,
+			ProbeHandler:             probeHandler,
 		},
 		Lifecycle: waitAPIContainerToStop(api.Kind),
 		Resources: resources,
@@ -1221,7 +1221,7 @@ func FileExistsProbe(fileName string) *kcore.Probe {
 		PeriodSeconds:       5,
 		SuccessThreshold:    1,
 		FailureThreshold:    1,
-		Handler: kcore.Handler{
+		ProbeHandler: kcore.ProbeHandler{
 			Exec: &kcore.ExecAction{
 				Command: []string{"/bin/bash", "-c", fmt.Sprintf("test -f %s", fileName)},
 			},
@@ -1236,7 +1236,7 @@ func socketExistsProbe(socketName string) *kcore.Probe {
 		PeriodSeconds:       5,
 		SuccessThreshold:    1,
 		FailureThreshold:    1,
-		Handler: kcore.Handler{
+		ProbeHandler: kcore.ProbeHandler{
 			Exec: &kcore.ExecAction{
 				Command: []string{"/bin/bash", "-c", fmt.Sprintf("test -S %s", socketName)},
 			},
@@ -1247,7 +1247,7 @@ func socketExistsProbe(socketName string) *kcore.Probe {
 func nginxGracefulStopper(apiKind userconfig.Kind) *kcore.Lifecycle {
 	if apiKind == userconfig.RealtimeAPIKind {
 		return &kcore.Lifecycle{
-			PreStop: &kcore.Handler{
+			PreStop: &kcore.LifecycleHandler{
 				Exec: &kcore.ExecAction{
 					// the sleep is required to wait for any k8s-related race conditions
 					// as described in https://medium.com/codecademy-engineering/kubernetes-nginx-and-zero-downtime-in-production-2c910c6a5ed8
@@ -1262,7 +1262,7 @@ func nginxGracefulStopper(apiKind userconfig.Kind) *kcore.Lifecycle {
 func waitAPIContainerToStop(apiKind userconfig.Kind) *kcore.Lifecycle {
 	if apiKind == userconfig.RealtimeAPIKind {
 		return &kcore.Lifecycle{
-			PreStop: &kcore.Handler{
+			PreStop: &kcore.LifecycleHandler{
 				Exec: &kcore.ExecAction{
 					Command: []string{"/bin/sh", "-c", fmt.Sprintf("while curl localhost:%s/nginx_status; do sleep 1; done", DefaultPortStr)},
 				},

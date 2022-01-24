@@ -24,7 +24,7 @@ import (
 	"gitlab.com/ais8/cortex/pkg/lib/errors"
 	"gitlab.com/ais8/cortex/pkg/lib/exit"
 	s "gitlab.com/ais8/cortex/pkg/lib/strings"
-	input "/go-input"
+	input "gitlab.com/ais8/go-input"
 )
 
 var _ui = &input.UI{
