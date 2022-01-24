@@ -1,6 +1,6 @@
-FROM golang:1.14.7 as builder
+FROM golang:1.17.3 as builder
 
-RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.20.2/bin/linux/amd64/kubectl && \
+RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.22.3/bin/linux/amd64/kubectl && \
     mv ./kubectl /tmp/kubectl
 
 COPY go.mod go.sum /go/src/gitlab.com/ais8/cortex/
