@@ -20,16 +20,16 @@ import (
 	"fmt"
 	"strings"
 
-	"/cortex/pkg/consts"
-	cr "/cortex/pkg/lib/configreader"
-	"/cortex/pkg/lib/errors"
-	"/cortex/pkg/lib/gcp"
-	"/cortex/pkg/lib/hash"
-	"/cortex/pkg/lib/pointer"
-	"/cortex/pkg/lib/prompt"
-	"/cortex/pkg/lib/sets/strset"
-	"/cortex/pkg/lib/slices"
-	"/cortex/pkg/types"
+	"gitlab.com/ais8/cortex/pkg/consts"
+	cr "gitlab.com/ais8/cortex/pkg/lib/configreader"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/gcp"
+	"gitlab.com/ais8/cortex/pkg/lib/hash"
+	"gitlab.com/ais8/cortex/pkg/lib/pointer"
+	"gitlab.com/ais8/cortex/pkg/lib/prompt"
+	"gitlab.com/ais8/cortex/pkg/lib/sets/strset"
+	"gitlab.com/ais8/cortex/pkg/lib/slices"
+	"gitlab.com/ais8/cortex/pkg/types"
 )
 
 var (

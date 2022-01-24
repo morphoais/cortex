@@ -17,7 +17,7 @@ limitations under the License.
 package telemetry
 
 import (
-	"/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
 )
 
 const (

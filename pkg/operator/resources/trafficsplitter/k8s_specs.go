@@ -17,10 +17,10 @@ limitations under the License.
 package trafficsplitter
 
 import (
-	"/cortex/pkg/lib/k8s"
-	"/cortex/pkg/lib/pointer"
-	"/cortex/pkg/operator/operator"
-	"/cortex/pkg/types/spec"
+	"gitlab.com/ais8/cortex/pkg/lib/k8s"
+	"gitlab.com/ais8/cortex/pkg/lib/pointer"
+	"gitlab.com/ais8/cortex/pkg/operator/operator"
+	"gitlab.com/ais8/cortex/pkg/types/spec"
 	istioclientnetworking "istio.io/client-go/pkg/apis/networking/v1beta1"
 )
 

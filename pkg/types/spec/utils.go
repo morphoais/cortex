@@ -21,16 +21,16 @@ import (
 	"strconv"
 	"strings"
 
-	"/cortex/pkg/consts"
-	"/cortex/pkg/lib/aws"
-	"/cortex/pkg/lib/errors"
-	"/cortex/pkg/lib/files"
-	"/cortex/pkg/lib/gcp"
-	"/cortex/pkg/lib/pointer"
-	"/cortex/pkg/lib/sets/strset"
-	"/cortex/pkg/lib/slices"
-	s "/cortex/pkg/lib/strings"
-	"/cortex/pkg/types/userconfig"
+	"gitlab.com/ais8/cortex/pkg/consts"
+	"gitlab.com/ais8/cortex/pkg/lib/aws"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/files"
+	"gitlab.com/ais8/cortex/pkg/lib/gcp"
+	"gitlab.com/ais8/cortex/pkg/lib/pointer"
+	"gitlab.com/ais8/cortex/pkg/lib/sets/strset"
+	"gitlab.com/ais8/cortex/pkg/lib/slices"
+	s "gitlab.com/ais8/cortex/pkg/lib/strings"
+	"gitlab.com/ais8/cortex/pkg/types/userconfig"
 )
 
 type modelValidator func(paths []string, prefix string, versionedPrefix *string) error

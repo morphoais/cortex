@@ -22,7 +22,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/apigatewayv2"
-	"/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
 )
 
 // CreateAPIGateway Creates a new API Gateway with the default stage

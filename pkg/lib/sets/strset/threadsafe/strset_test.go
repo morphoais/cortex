@@ -19,8 +19,8 @@ package threadsafe_test
 import (
 	"testing"
 
-	"/cortex/pkg/lib/sets/strset"
-	"/cortex/pkg/lib/sets/strset/threadsafe"
+	"gitlab.com/ais8/cortex/pkg/lib/sets/strset"
+	"gitlab.com/ais8/cortex/pkg/lib/sets/strset/threadsafe"
 	"github.com/stretchr/testify/require"
 )
 

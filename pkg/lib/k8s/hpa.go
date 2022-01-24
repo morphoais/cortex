@@ -19,7 +19,7 @@ package k8s
 import (
 	"context"
 
-	"/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
 	kautoscaling "k8s.io/api/autoscaling/v2beta2"
 	kcore "k8s.io/api/core/v1"
 	kerrors "k8s.io/apimachinery/pkg/api/errors"

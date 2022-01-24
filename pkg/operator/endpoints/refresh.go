@@ -19,8 +19,8 @@ package endpoints
 import (
 	"net/http"
 
-	"/cortex/pkg/operator/resources"
-	"/cortex/pkg/operator/schema"
+	"gitlab.com/ais8/cortex/pkg/operator/resources"
+	"gitlab.com/ais8/cortex/pkg/operator/schema"
 	"github.com/gorilla/mux"
 )
 

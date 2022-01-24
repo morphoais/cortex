@@ -19,7 +19,7 @@ package aws
 import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/autoscaling"
-	"/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
 )
 
 // if specified, all tags must be present

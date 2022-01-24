@@ -23,14 +23,14 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/sqs"
-	awslib "/cortex/pkg/lib/aws"
-	"/cortex/pkg/lib/cron"
-	"/cortex/pkg/lib/errors"
-	libjson "/cortex/pkg/lib/json"
-	s "/cortex/pkg/lib/strings"
-	"/cortex/pkg/operator/config"
-	"/cortex/pkg/types/metrics"
-	"/cortex/pkg/types/spec"
+	awslib "gitlab.com/ais8/cortex/pkg/lib/aws"
+	"gitlab.com/ais8/cortex/pkg/lib/cron"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	libjson "gitlab.com/ais8/cortex/pkg/lib/json"
+	s "gitlab.com/ais8/cortex/pkg/lib/strings"
+	"gitlab.com/ais8/cortex/pkg/operator/config"
+	"gitlab.com/ais8/cortex/pkg/types/metrics"
+	"gitlab.com/ais8/cortex/pkg/types/spec"
 )
 
 const (

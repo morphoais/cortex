@@ -24,11 +24,11 @@ import (
 	"os/exec"
 	"time"
 
-	"/cortex/pkg/lib/errors"
-	"/cortex/pkg/lib/k8s"
-	"/cortex/pkg/lib/telemetry"
-	"/cortex/pkg/operator/config"
-	"/cortex/pkg/operator/lib/routines"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/k8s"
+	"gitlab.com/ais8/cortex/pkg/lib/telemetry"
+	"gitlab.com/ais8/cortex/pkg/operator/config"
+	"gitlab.com/ais8/cortex/pkg/operator/lib/routines"
 	"github.com/gorilla/websocket"
 )
 

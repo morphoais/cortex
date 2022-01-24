@@ -19,9 +19,9 @@ package k8s
 import (
 	"fmt"
 
-	"/cortex/pkg/consts"
-	"/cortex/pkg/lib/errors"
-	s "/cortex/pkg/lib/strings"
+	"gitlab.com/ais8/cortex/pkg/consts"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	s "gitlab.com/ais8/cortex/pkg/lib/strings"
 )
 
 const (

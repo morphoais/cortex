@@ -22,8 +22,8 @@ import (
 	"strings"
 
 	"github.com/aws/aws-sdk-go/service/ecr"
-	"/cortex/pkg/lib/errors"
-	"/cortex/pkg/lib/regex"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/regex"
 )
 
 type ECRAuthConfig struct {

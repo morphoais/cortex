@@ -19,11 +19,11 @@ package configreader
 import (
 	"strings"
 
-	"/cortex/pkg/lib/errors"
-	"/cortex/pkg/lib/exit"
-	"/cortex/pkg/lib/files"
-	"/cortex/pkg/lib/prompt"
-	s "/cortex/pkg/lib/strings"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/exit"
+	"gitlab.com/ais8/cortex/pkg/lib/files"
+	"gitlab.com/ais8/cortex/pkg/lib/prompt"
+	s "gitlab.com/ais8/cortex/pkg/lib/strings"
 )
 
 type BoolValidation struct {

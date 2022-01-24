@@ -18,10 +18,10 @@ package batchapi
 
 import (
 	"github.com/aws/aws-sdk-go/service/s3"
-	"/cortex/pkg/lib/aws"
-	"/cortex/pkg/lib/errors"
-	"/cortex/pkg/operator/config"
-	"/cortex/pkg/operator/schema"
+	"gitlab.com/ais8/cortex/pkg/lib/aws"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/operator/config"
+	"gitlab.com/ais8/cortex/pkg/operator/schema"
 	"github.com/gobwas/glob"
 )
 

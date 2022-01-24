@@ -20,8 +20,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"/cortex/pkg/lib/errors"
-	"/cortex/pkg/operator/resources"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/operator/resources"
 )
 
 func Patch(w http.ResponseWriter, r *http.Request) {

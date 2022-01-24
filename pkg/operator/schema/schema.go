@@ -17,12 +17,12 @@ limitations under the License.
 package schema
 
 import (
-	"/cortex/pkg/types"
-	"/cortex/pkg/types/clusterconfig"
-	"/cortex/pkg/types/metrics"
-	"/cortex/pkg/types/spec"
-	"/cortex/pkg/types/status"
-	"/cortex/pkg/types/userconfig"
+	"gitlab.com/ais8/cortex/pkg/types"
+	"gitlab.com/ais8/cortex/pkg/types/clusterconfig"
+	"gitlab.com/ais8/cortex/pkg/types/metrics"
+	"gitlab.com/ais8/cortex/pkg/types/spec"
+	"gitlab.com/ais8/cortex/pkg/types/status"
+	"gitlab.com/ais8/cortex/pkg/types/userconfig"
 )
 
 type InfoResponse struct {

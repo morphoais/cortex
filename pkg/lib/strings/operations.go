@@ -20,7 +20,7 @@ import (
 	"strings"
 	"unicode"
 
-	"/cortex/pkg/lib/cast"
+	"gitlab.com/ais8/cortex/pkg/lib/cast"
 )
 
 func ToTitle(str string) string {

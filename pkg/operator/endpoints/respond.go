@@ -20,10 +20,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"/cortex/pkg/lib/errors"
-	"/cortex/pkg/lib/telemetry"
-	"/cortex/pkg/operator/lib/logging"
-	"/cortex/pkg/operator/schema"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/telemetry"
+	"gitlab.com/ais8/cortex/pkg/operator/lib/logging"
+	"gitlab.com/ais8/cortex/pkg/operator/schema"
 )
 
 var operatorLogger = logging.GetOperatorLogger()

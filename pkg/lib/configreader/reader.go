@@ -23,17 +23,17 @@ import (
 	"reflect"
 	"strings"
 
-	"/cortex/pkg/lib/cast"
-	"/cortex/pkg/lib/debug"
-	"/cortex/pkg/lib/errors"
-	"/cortex/pkg/lib/exit"
-	"/cortex/pkg/lib/files"
-	"/cortex/pkg/lib/json"
-	"/cortex/pkg/lib/maps"
-	"/cortex/pkg/lib/prompt"
-	"/cortex/pkg/lib/slices"
-	s "/cortex/pkg/lib/strings"
-	"/yaml"
+	"gitlab.com/ais8/cortex/pkg/lib/cast"
+	"gitlab.com/ais8/cortex/pkg/lib/debug"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/exit"
+	"gitlab.com/ais8/cortex/pkg/lib/files"
+	"gitlab.com/ais8/cortex/pkg/lib/json"
+	"gitlab.com/ais8/cortex/pkg/lib/maps"
+	"gitlab.com/ais8/cortex/pkg/lib/prompt"
+	"gitlab.com/ais8/cortex/pkg/lib/slices"
+	s "gitlab.com/ais8/cortex/pkg/lib/strings"
+	"gitlab.com/ais8/yaml"
 )
 
 type StructFieldValidation struct {

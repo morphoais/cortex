@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
 	"github.com/stretchr/testify/require"
 )
 

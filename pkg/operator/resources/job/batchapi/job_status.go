@@ -19,11 +19,11 @@ package batchapi
 import (
 	"time"
 
-	"/cortex/pkg/operator/config"
-	"/cortex/pkg/operator/operator"
-	"/cortex/pkg/operator/resources/job"
-	"/cortex/pkg/types/spec"
-	"/cortex/pkg/types/status"
+	"gitlab.com/ais8/cortex/pkg/operator/config"
+	"gitlab.com/ais8/cortex/pkg/operator/operator"
+	"gitlab.com/ais8/cortex/pkg/operator/resources/job"
+	"gitlab.com/ais8/cortex/pkg/types/spec"
+	"gitlab.com/ais8/cortex/pkg/types/status"
 	kbatch "k8s.io/api/batch/v1"
 	kcore "k8s.io/api/core/v1"
 )

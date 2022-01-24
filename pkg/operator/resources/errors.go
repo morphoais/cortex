@@ -19,11 +19,11 @@ package resources
 import (
 	"fmt"
 
-	"/cortex/pkg/lib/errors"
-	"/cortex/pkg/lib/strings"
-	s "/cortex/pkg/lib/strings"
-	"/cortex/pkg/operator/operator"
-	"/cortex/pkg/types/userconfig"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/strings"
+	s "gitlab.com/ais8/cortex/pkg/lib/strings"
+	"gitlab.com/ais8/cortex/pkg/operator/operator"
+	"gitlab.com/ais8/cortex/pkg/types/userconfig"
 )
 
 const (

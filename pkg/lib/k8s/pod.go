@@ -22,8 +22,8 @@ import (
 	"regexp"
 	"time"
 
-	"/cortex/pkg/lib/errors"
-	"/cortex/pkg/lib/sets/strset"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/sets/strset"
 	kcore "k8s.io/api/core/v1"
 	kerrors "k8s.io/apimachinery/pkg/api/errors"
 	kmeta "k8s.io/apimachinery/pkg/apis/meta/v1"

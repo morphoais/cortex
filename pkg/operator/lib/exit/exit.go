@@ -19,9 +19,9 @@ package exit
 import (
 	"os"
 
-	"/cortex/pkg/lib/errors"
-	"/cortex/pkg/lib/telemetry"
-	"/cortex/pkg/operator/lib/logging"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/telemetry"
+	"gitlab.com/ais8/cortex/pkg/operator/lib/logging"
 )
 
 var operatorLogger = logging.GetOperatorLogger()

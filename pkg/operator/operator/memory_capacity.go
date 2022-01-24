@@ -17,10 +17,10 @@ limitations under the License.
 package operator
 
 import (
-	"/cortex/pkg/lib/errors"
-	"/cortex/pkg/lib/k8s"
-	"/cortex/pkg/lib/slices"
-	"/cortex/pkg/operator/config"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/k8s"
+	"gitlab.com/ais8/cortex/pkg/lib/slices"
+	"gitlab.com/ais8/cortex/pkg/operator/config"
 	kresource "k8s.io/apimachinery/pkg/api/resource"
 	kmeta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	klabels "k8s.io/apimachinery/pkg/labels"

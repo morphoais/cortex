@@ -17,11 +17,11 @@ limitations under the License.
 package configreader
 
 import (
-	"/cortex/pkg/lib/cast"
-	"/cortex/pkg/lib/errors"
-	"/cortex/pkg/lib/files"
-	"/cortex/pkg/lib/prompt"
-	s "/cortex/pkg/lib/strings"
+	"gitlab.com/ais8/cortex/pkg/lib/cast"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/files"
+	"gitlab.com/ais8/cortex/pkg/lib/prompt"
+	s "gitlab.com/ais8/cortex/pkg/lib/strings"
 )
 
 type Float32PtrValidation struct {

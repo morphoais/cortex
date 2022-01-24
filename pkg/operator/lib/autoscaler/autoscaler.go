@@ -21,14 +21,14 @@ import (
 	"math"
 	"time"
 
-	"/cortex/pkg/lib/errors"
-	math2 "/cortex/pkg/lib/math"
-	"/cortex/pkg/lib/strings"
-	time2 "/cortex/pkg/lib/time"
-	"/cortex/pkg/operator/config"
-	"/cortex/pkg/operator/operator"
-	"/cortex/pkg/types/spec"
-	"/cortex/pkg/types/userconfig"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	math2 "gitlab.com/ais8/cortex/pkg/lib/math"
+	"gitlab.com/ais8/cortex/pkg/lib/strings"
+	time2 "gitlab.com/ais8/cortex/pkg/lib/time"
+	"gitlab.com/ais8/cortex/pkg/operator/config"
+	"gitlab.com/ais8/cortex/pkg/operator/operator"
+	"gitlab.com/ais8/cortex/pkg/types/spec"
+	"gitlab.com/ais8/cortex/pkg/types/userconfig"
 	kapps "k8s.io/api/apps/v1"
 )
 

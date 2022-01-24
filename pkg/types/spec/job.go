@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"/cortex/pkg/consts"
-	s "/cortex/pkg/lib/strings"
-	"/cortex/pkg/types/userconfig"
+	"gitlab.com/ais8/cortex/pkg/consts"
+	s "gitlab.com/ais8/cortex/pkg/lib/strings"
+	"gitlab.com/ais8/cortex/pkg/types/userconfig"
 )
 
 type JobKey struct {

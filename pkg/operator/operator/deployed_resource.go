@@ -17,7 +17,7 @@ limitations under the License.
 package operator
 
 import (
-	"/cortex/pkg/types/userconfig"
+	"gitlab.com/ais8/cortex/pkg/types/userconfig"
 	istioclientnetworking "istio.io/client-go/pkg/apis/networking/v1beta1"
 )
 

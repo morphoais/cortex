@@ -17,10 +17,10 @@ limitations under the License.
 package operator
 
 import (
-	"/cortex/pkg/lib/errors"
-	"/cortex/pkg/lib/parallel"
-	"/cortex/pkg/operator/config"
-	"/cortex/pkg/types/spec"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/parallel"
+	"gitlab.com/ais8/cortex/pkg/operator/config"
+	"gitlab.com/ais8/cortex/pkg/types/spec"
 )
 
 func DownloadAPISpec(apiName string, apiID string) (*spec.API, error) {

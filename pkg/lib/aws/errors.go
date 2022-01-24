@@ -23,8 +23,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/iam"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/sqs"
-	"/cortex/pkg/lib/errors"
-	s "/cortex/pkg/lib/strings"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	s "gitlab.com/ais8/cortex/pkg/lib/strings"
 )
 
 const (

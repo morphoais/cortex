@@ -19,10 +19,10 @@ package configreader
 import (
 	"strings"
 
-	"/cortex/pkg/lib/errors"
-	"/cortex/pkg/lib/files"
-	"/cortex/pkg/lib/prompt"
-	s "/cortex/pkg/lib/strings"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/files"
+	"gitlab.com/ais8/cortex/pkg/lib/prompt"
+	s "gitlab.com/ais8/cortex/pkg/lib/strings"
 )
 
 type BoolPtrValidation struct {

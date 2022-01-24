@@ -21,9 +21,9 @@ import (
 	"strings"
 	"time"
 
-	"/cortex/pkg/lib/aws"
-	"/cortex/pkg/lib/docker"
-	"/cortex/pkg/lib/files"
+	"gitlab.com/ais8/cortex/pkg/lib/aws"
+	"gitlab.com/ais8/cortex/pkg/lib/docker"
+	"gitlab.com/ais8/cortex/pkg/lib/files"
 )
 
 var _emailRegex *regexp.Regexp

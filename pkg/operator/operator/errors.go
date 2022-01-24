@@ -19,8 +19,8 @@ package operator
 import (
 	"fmt"
 
-	"/cortex/pkg/lib/errors"
-	s "/cortex/pkg/lib/strings"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	s "gitlab.com/ais8/cortex/pkg/lib/strings"
 )
 
 const (

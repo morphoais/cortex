@@ -19,10 +19,10 @@ package config
 import (
 	"cloud.google.com/go/storage"
 	"github.com/aws/aws-sdk-go/service/s3"
-	"/cortex/pkg/lib/aws"
-	"/cortex/pkg/lib/gcp"
-	s "/cortex/pkg/lib/strings"
-	"/cortex/pkg/types"
+	"gitlab.com/ais8/cortex/pkg/lib/aws"
+	"gitlab.com/ais8/cortex/pkg/lib/gcp"
+	s "gitlab.com/ais8/cortex/pkg/lib/strings"
+	"gitlab.com/ais8/cortex/pkg/types"
 )
 
 func IsManaged() bool {

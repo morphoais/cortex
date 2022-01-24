@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"/cortex/pkg/lib/errors"
-	"/cortex/pkg/lib/sets/strset"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/sets/strset"
 )
 
 const (

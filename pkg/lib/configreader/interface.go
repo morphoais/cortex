@@ -17,13 +17,13 @@ limitations under the License.
 package configreader
 
 import (
-	"/cortex/pkg/lib/cast"
-	"/cortex/pkg/lib/errors"
-	"/cortex/pkg/lib/maps"
-	"/cortex/pkg/lib/pointer"
-	"/cortex/pkg/lib/sets/strset"
-	s "/cortex/pkg/lib/strings"
-	"/yaml"
+	"gitlab.com/ais8/cortex/pkg/lib/cast"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/maps"
+	"gitlab.com/ais8/cortex/pkg/lib/pointer"
+	"gitlab.com/ais8/cortex/pkg/lib/sets/strset"
+	s "gitlab.com/ais8/cortex/pkg/lib/strings"
+	"gitlab.com/ais8/yaml"
 )
 
 type InterfaceValidation struct {

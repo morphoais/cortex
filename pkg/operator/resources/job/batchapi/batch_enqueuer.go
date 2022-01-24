@@ -21,9 +21,9 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/sqs"
-	"/cortex/pkg/lib/errors"
-	"/cortex/pkg/operator/config"
-	"/cortex/pkg/types/spec"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/operator/config"
+	"gitlab.com/ais8/cortex/pkg/types/spec"
 )
 
 const (

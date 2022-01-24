@@ -19,7 +19,7 @@ package endpoints
 import (
 	"net/http"
 
-	s "/cortex/pkg/lib/strings"
+	s "gitlab.com/ais8/cortex/pkg/lib/strings"
 	"github.com/gorilla/mux"
 )
 

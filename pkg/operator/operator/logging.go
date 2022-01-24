@@ -23,10 +23,10 @@ import (
 	"sync"
 	"time"
 
-	"/cortex/pkg/lib/errors"
-	"/cortex/pkg/operator/lib/logging"
-	"/cortex/pkg/types/spec"
-	"/cortex/pkg/types/userconfig"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/operator/lib/logging"
+	"gitlab.com/ais8/cortex/pkg/types/spec"
+	"gitlab.com/ais8/cortex/pkg/types/userconfig"
 	"go.uber.org/zap"
 )
 

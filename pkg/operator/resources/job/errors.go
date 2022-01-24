@@ -19,10 +19,10 @@ package job
 import (
 	"fmt"
 
-	"/cortex/pkg/lib/errors"
-	s "/cortex/pkg/lib/strings"
-	"/cortex/pkg/types/spec"
-	"/cortex/pkg/types/userconfig"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	s "gitlab.com/ais8/cortex/pkg/lib/strings"
+	"gitlab.com/ais8/cortex/pkg/types/spec"
+	"gitlab.com/ais8/cortex/pkg/types/userconfig"
 )
 
 const (

@@ -19,8 +19,8 @@ package job
 import (
 	"time"
 
-	"/cortex/pkg/lib/k8s"
-	"/cortex/pkg/types/status"
+	"gitlab.com/ais8/cortex/pkg/lib/k8s"
+	"gitlab.com/ais8/cortex/pkg/types/status"
 	kbatch "k8s.io/api/batch/v1"
 	kcore "k8s.io/api/core/v1"
 )

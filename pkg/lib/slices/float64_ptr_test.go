@@ -19,7 +19,7 @@ package slices
 import (
 	"testing"
 
-	"/cortex/pkg/lib/pointer"
+	"gitlab.com/ais8/cortex/pkg/lib/pointer"
 	"github.com/stretchr/testify/require"
 )
 

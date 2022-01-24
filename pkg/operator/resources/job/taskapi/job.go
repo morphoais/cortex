@@ -19,14 +19,14 @@ package taskapi
 import (
 	"time"
 
-	"/cortex/pkg/lib/errors"
-	"/cortex/pkg/lib/telemetry"
-	"/cortex/pkg/operator/config"
-	"/cortex/pkg/operator/lib/routines"
-	"/cortex/pkg/operator/operator"
-	"/cortex/pkg/operator/resources/job"
-	"/cortex/pkg/operator/schema"
-	"/cortex/pkg/types/spec"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/telemetry"
+	"gitlab.com/ais8/cortex/pkg/operator/config"
+	"gitlab.com/ais8/cortex/pkg/operator/lib/routines"
+	"gitlab.com/ais8/cortex/pkg/operator/operator"
+	"gitlab.com/ais8/cortex/pkg/operator/resources/job"
+	"gitlab.com/ais8/cortex/pkg/operator/schema"
+	"gitlab.com/ais8/cortex/pkg/types/spec"
 )
 
 func SubmitJob(apiName string, submission *schema.TaskJobSubmission) (*spec.TaskJob, error) {

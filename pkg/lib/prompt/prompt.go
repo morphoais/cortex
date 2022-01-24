@@ -21,9 +21,9 @@ import (
 	"os"
 	"strings"
 
-	"/cortex/pkg/lib/errors"
-	"/cortex/pkg/lib/exit"
-	s "/cortex/pkg/lib/strings"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/exit"
+	s "gitlab.com/ais8/cortex/pkg/lib/strings"
 	input "/go-input"
 )
 

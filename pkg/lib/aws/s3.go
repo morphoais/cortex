@@ -31,14 +31,14 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
-	"/cortex/pkg/lib/errors"
-	"/cortex/pkg/lib/files"
-	"/cortex/pkg/lib/json"
-	"/cortex/pkg/lib/msgpack"
-	"/cortex/pkg/lib/pointer"
-	"/cortex/pkg/lib/sets/strset"
-	"/cortex/pkg/lib/slices"
-	s "/cortex/pkg/lib/strings"
+	"gitlab.com/ais8/cortex/pkg/lib/errors"
+	"gitlab.com/ais8/cortex/pkg/lib/files"
+	"gitlab.com/ais8/cortex/pkg/lib/json"
+	"gitlab.com/ais8/cortex/pkg/lib/msgpack"
+	"gitlab.com/ais8/cortex/pkg/lib/pointer"
+	"gitlab.com/ais8/cortex/pkg/lib/sets/strset"
+	"gitlab.com/ais8/cortex/pkg/lib/slices"
+	s "gitlab.com/ais8/cortex/pkg/lib/strings"
 )
 
 const DefaultS3Region string = endpoints.UsWest2RegionID
