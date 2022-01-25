@@ -35,14 +35,13 @@
 
 9. Zip the client (`cortex/bin/cortex`), create a new folder in the s3 bucket `for-mor-cortex` with the new version  (e.g. `for-mor-cortex/cli/linux/0.31.3`) and upload the zip as `cortex.zip`.
 
-10. Build the Python wheel in pkg/cortex/client with `python setup.py bdist_wheel`
+10. Build the Python wheel in pkg/cortex/client with `python setup.py bdist_wheel` AFTER UPLOADING THE NEW CLIENT!
 
 
 
 ## Notes
 
 - Kubernetes versions are supported for about one year by AWS so this has to be done every year
-- It might be needed to give the clients IAM user permission to access the ECR (see `build/push_image.sh` for ecr path)
 - Updating the go version is likely to break things
 - Any image built based on a given cortex version needs to be rebuilt with the new version
 - Running clusters cant be updated, new clusters have to be created using the new cortex version

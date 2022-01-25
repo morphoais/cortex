@@ -101,26 +101,26 @@ The docker images used by the Cortex cluster can also be overridden, although th
 
 <!-- CORTEX_VERSION_BRANCH_STABLE -->
 ```yaml
-image_operator: 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/operator:0.31.1
-image_manager: 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/manager:0.31.1
-image_downloader: 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/downloader:0.31.1
-image_request_monitor: 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/request-monitor:0.31.1
-image_cluster_autoscaler: 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/cluster-autoscaler:0.31.1
-image_metrics_server: 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/metrics-server:0.31.1
-image_inferentia: 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/inferentia:0.31.1
-image_neuron_rtd: 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/neuron-rtd:0.31.1
-image_nvidia: 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/nvidia:0.31.1
-image_fluent_bit: 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/fluent-bit:0.31.1
-image_istio_proxy: 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/istio-proxy:0.31.1
-image_istio_pilot: 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/istio-pilot:0.31.1
-image_prometheus: 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/prometheus:0.31.1
-image_prometheus_config_reloader: 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/prometheus-config-reloader:0.31.1
-image_prometheus_operator: 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/prometheus-operator:0.31.1
-image_prometheus_statsd_exporter: 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/prometheus-statsd-exporter:0.31.1
-image_prometheus_dcgm_exporter: 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/prometheus-dcgm-exporter:0.31.1
-image_prometheus_kube_state_metrics: 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/prometheus-kube-state-metrics:0.31.1
-image_prometheus_node_exporter: 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/prometheus-node-exporter:0.31.1
-image_kube_rbac_proxy: 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/kube-rbac-proxy:0.31.1
-image_grafana: 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/grafana:0.31.1
-image_event_exporter: 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/event-exporter:0.31.1
+image_operator: public.ecr.aws/x6x7z2q3/mor-cortex/operator:0.31.1
+image_manager: public.ecr.aws/x6x7z2q3/mor-cortex/manager:0.31.1
+image_downloader: public.ecr.aws/x6x7z2q3/mor-cortex/downloader:0.31.1
+image_request_monitor: public.ecr.aws/x6x7z2q3/mor-cortex/request-monitor:0.31.1
+image_cluster_autoscaler: public.ecr.aws/x6x7z2q3/mor-cortex/cluster-autoscaler:0.31.1
+image_metrics_server: public.ecr.aws/x6x7z2q3/mor-cortex/metrics-server:0.31.1
+image_inferentia: public.ecr.aws/x6x7z2q3/mor-cortex/inferentia:0.31.1
+image_neuron_rtd: public.ecr.aws/x6x7z2q3/mor-cortex/neuron-rtd:0.31.1
+image_nvidia: public.ecr.aws/x6x7z2q3/mor-cortex/nvidia:0.31.1
+image_fluent_bit: public.ecr.aws/x6x7z2q3/mor-cortex/fluent-bit:0.31.1
+image_istio_proxy: public.ecr.aws/x6x7z2q3/mor-cortex/istio-proxy:0.31.1
+image_istio_pilot: public.ecr.aws/x6x7z2q3/mor-cortex/istio-pilot:0.31.1
+image_prometheus: public.ecr.aws/x6x7z2q3/mor-cortex/prometheus:0.31.1
+image_prometheus_config_reloader: public.ecr.aws/x6x7z2q3/mor-cortex/prometheus-config-reloader:0.31.1
+image_prometheus_operator: public.ecr.aws/x6x7z2q3/mor-cortex/prometheus-operator:0.31.1
+image_prometheus_statsd_exporter: public.ecr.aws/x6x7z2q3/mor-cortex/prometheus-statsd-exporter:0.31.1
+image_prometheus_dcgm_exporter: public.ecr.aws/x6x7z2q3/mor-cortex/prometheus-dcgm-exporter:0.31.1
+image_prometheus_kube_state_metrics: public.ecr.aws/x6x7z2q3/mor-cortex/prometheus-kube-state-metrics:0.31.1
+image_prometheus_node_exporter: public.ecr.aws/x6x7z2q3/mor-cortex/prometheus-node-exporter:0.31.1
+image_kube_rbac_proxy: public.ecr.aws/x6x7z2q3/mor-cortex/kube-rbac-proxy:0.31.1
+image_grafana: public.ecr.aws/x6x7z2q3/mor-cortex/grafana:0.31.1
+image_event_exporter: public.ecr.aws/x6x7z2q3/mor-cortex/event-exporter:0.31.1
 ```

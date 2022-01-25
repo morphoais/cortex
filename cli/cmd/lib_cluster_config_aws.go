@@ -90,7 +90,7 @@ func getNewClusterAccessConfig(clusterConfigFile string) (*clusterconfig.AccessC
 
 func getClusterAccessConfigWithCache() (*clusterconfig.AccessConfig, error) {
 	accessConfig := &clusterconfig.AccessConfig{
-		ImageManager: "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/manager:" + consts.CortexVersion,
+		ImageManager: "public.ecr.aws/x6x7z2q3/mor-cortex/manager:" + consts.CortexVersion,
 	}
 
 	cachedPaths := existingCachedClusterConfigPaths()

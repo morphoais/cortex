@@ -167,133 +167,133 @@ var GCPCoreConfigStructFieldValidations = []*cr.StructFieldValidation{
 	{
 		StructField: "ImageOperator",
 		StringValidation: &cr.StringValidation{
-			Default:   "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/operator:" + consts.CortexVersion,
+			Default:   "public.ecr.aws/x6x7z2q3/mor-cortex/operator:" + consts.CortexVersion,
 			Validator: validateImageVersion,
 		},
 	},
 	{
 		StructField: "ImageManager",
 		StringValidation: &cr.StringValidation{
-			Default:   "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/manager:" + consts.CortexVersion,
+			Default:   "public.ecr.aws/x6x7z2q3/mor-cortex/manager:" + consts.CortexVersion,
 			Validator: validateImageVersion,
 		},
 	},
 	{
 		StructField: "ImageDownloader",
 		StringValidation: &cr.StringValidation{
-			Default:   "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/downloader:" + consts.CortexVersion,
+			Default:   "public.ecr.aws/x6x7z2q3/mor-cortex/downloader:" + consts.CortexVersion,
 			Validator: validateImageVersion,
 		},
 	},
 	{
 		StructField: "ImageRequestMonitor",
 		StringValidation: &cr.StringValidation{
-			Default:   "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/request-monitor:" + consts.CortexVersion,
+			Default:   "public.ecr.aws/x6x7z2q3/mor-cortex/request-monitor:" + consts.CortexVersion,
 			Validator: validateImageVersion,
 		},
 	},
 	{
 		StructField: "ImageClusterAutoscaler",
 		StringValidation: &cr.StringValidation{
-			Default:   "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/cluster-autoscaler:" + consts.CortexVersion,
+			Default:   "public.ecr.aws/x6x7z2q3/mor-cortex/cluster-autoscaler:" + consts.CortexVersion,
 			Validator: validateImageVersion,
 		},
 	},
 	{
 		StructField: "ImageFluentBit",
 		StringValidation: &cr.StringValidation{
-			Default:   "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/fluent-bit:" + consts.CortexVersion,
+			Default:   "public.ecr.aws/x6x7z2q3/mor-cortex/fluent-bit:" + consts.CortexVersion,
 			Validator: validateImageVersion,
 		},
 	},
 	{
 		StructField: "ImageIstioProxy",
 		StringValidation: &cr.StringValidation{
-			Default:   "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/istio-proxy:" + consts.CortexVersion,
+			Default:   "public.ecr.aws/x6x7z2q3/mor-cortex/istio-proxy:" + consts.CortexVersion,
 			Validator: validateImageVersion,
 		},
 	},
 	{
 		StructField: "ImageIstioPilot",
 		StringValidation: &cr.StringValidation{
-			Default:   "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/istio-pilot:" + consts.CortexVersion,
+			Default:   "public.ecr.aws/x6x7z2q3/mor-cortex/istio-pilot:" + consts.CortexVersion,
 			Validator: validateImageVersion,
 		},
 	},
 	{
 		StructField: "ImageGooglePause",
 		StringValidation: &cr.StringValidation{
-			Default:   "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/google-pause:" + consts.CortexVersion,
+			Default:   "public.ecr.aws/x6x7z2q3/mor-cortex/google-pause:" + consts.CortexVersion,
 			Validator: validateImageVersion,
 		},
 	},
 	{
 		StructField: "ImagePrometheus",
 		StringValidation: &cr.StringValidation{
-			Default:   "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/prometheus:" + consts.CortexVersion,
+			Default:   "public.ecr.aws/x6x7z2q3/mor-cortex/prometheus:" + consts.CortexVersion,
 			Validator: validateImageVersion,
 		},
 	},
 	{
 		StructField: "ImagePrometheusConfigReloader",
 		StringValidation: &cr.StringValidation{
-			Default:   "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/prometheus-config-reloader:" + consts.CortexVersion,
+			Default:   "public.ecr.aws/x6x7z2q3/mor-cortex/prometheus-config-reloader:" + consts.CortexVersion,
 			Validator: validateImageVersion,
 		},
 	},
 	{
 		StructField: "ImagePrometheusOperator",
 		StringValidation: &cr.StringValidation{
-			Default:   "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/prometheus-operator:" + consts.CortexVersion,
+			Default:   "public.ecr.aws/x6x7z2q3/mor-cortex/prometheus-operator:" + consts.CortexVersion,
 			Validator: validateImageVersion,
 		},
 	},
 	{
 		StructField: "ImagePrometheusNodeExporter",
 		StringValidation: &cr.StringValidation{
-			Default:   "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/prometheus-node-exporter:" + consts.CortexVersion,
+			Default:   "public.ecr.aws/x6x7z2q3/mor-cortex/prometheus-node-exporter:" + consts.CortexVersion,
 			Validator: validateImageVersion,
 		},
 	},
 	{
 		StructField: "ImageKubeRBACProxy",
 		StringValidation: &cr.StringValidation{
-			Default:   "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/kube-rbac-proxy:" + consts.CortexVersion,
+			Default:   "public.ecr.aws/x6x7z2q3/mor-cortex/kube-rbac-proxy:" + consts.CortexVersion,
 			Validator: validateImageVersion,
 		},
 	},
 	{
 		StructField: "ImagePrometheusStatsDExporter",
 		StringValidation: &cr.StringValidation{
-			Default:   "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/prometheus-statsd-exporter:" + consts.CortexVersion,
+			Default:   "public.ecr.aws/x6x7z2q3/mor-cortex/prometheus-statsd-exporter:" + consts.CortexVersion,
 			Validator: validateImageVersion,
 		},
 	},
 	{
 		StructField: "ImagePrometheusDCGMExporter",
 		StringValidation: &cr.StringValidation{
-			Default:   "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/prometheus-dcgm-exporter:" + consts.CortexVersion,
+			Default:   "public.ecr.aws/x6x7z2q3/mor-cortex/prometheus-dcgm-exporter:" + consts.CortexVersion,
 			Validator: validateImageVersion,
 		},
 	},
 	{
 		StructField: "ImagePrometheusKubeStateMetrics",
 		StringValidation: &cr.StringValidation{
-			Default:   "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/prometheus-kube-state-metrics:" + consts.CortexVersion,
+			Default:   "public.ecr.aws/x6x7z2q3/mor-cortex/prometheus-kube-state-metrics:" + consts.CortexVersion,
 			Validator: validateImageVersion,
 		},
 	},
 	{
 		StructField: "ImageGrafana",
 		StringValidation: &cr.StringValidation{
-			Default:   "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/grafana:" + consts.CortexVersion,
+			Default:   "public.ecr.aws/x6x7z2q3/mor-cortex/grafana:" + consts.CortexVersion,
 			Validator: validateImageVersion,
 		},
 	},
 	{
 		StructField: "ImageEventExporter",
 		StringValidation: &cr.StringValidation{
-			Default:   "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/event-exporter:" + consts.CortexVersion,
+			Default:   "public.ecr.aws/x6x7z2q3/mor-cortex/event-exporter:" + consts.CortexVersion,
 			Validator: validateImageVersion,
 		},
 	},
@@ -431,7 +431,7 @@ var GCPAccessValidation = &cr.StructValidation{
 		{
 			StructField: "ImageManager",
 			StringValidation: &cr.StringValidation{
-				Default:   "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/manager:" + consts.CortexVersion,
+				Default:   "public.ecr.aws/x6x7z2q3/mor-cortex/manager:" + consts.CortexVersion,
 				Validator: validateImageVersion,
 			},
 		},

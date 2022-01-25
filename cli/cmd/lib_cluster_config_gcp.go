@@ -75,7 +75,7 @@ func getNewGCPClusterAccessConfig(clusterConfigFile string) (*clusterconfig.GCPA
 
 func getGCPClusterAccessConfigWithCache(disallowPrompt bool) (*clusterconfig.GCPAccessConfig, error) {
 	accessConfig := &clusterconfig.GCPAccessConfig{
-		ImageManager: "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/manager:" + consts.CortexVersion,
+		ImageManager: "public.ecr.aws/x6x7z2q3/mor-cortex/manager:" + consts.CortexVersion,
 	}
 
 	cachedPaths := existingCachedGCPClusterConfigPaths()

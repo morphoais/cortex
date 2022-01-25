@@ -59,5 +59,5 @@ func defaultRegistry() string {
 	if registryOverride := os.Getenv("CORTEX_DEV_DEFAULT_PREDICTOR_IMAGE_REGISTRY"); registryOverride != "" {
 		return registryOverride
 	}
-	return "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs"
+	return "public.ecr.aws/x6x7z2q3/mor-cortex"
 }

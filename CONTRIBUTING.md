@@ -180,28 +180,28 @@ node_groups:
     min_instances: 1
     max_instances: 5
 
-image_operator: <account_id>.dkr.ecr.<region>.amazonaws.com/cortexlabs/operator:master
-image_manager: <account_id>.dkr.ecr.<region>.amazonaws.com/cortexlabs/manager:master
-image_downloader: <account_id>.dkr.ecr.<region>.amazonaws.com/cortexlabs/downloader:master
-image_request_monitor: <account_id>.dkr.ecr.<region>.amazonaws.com/cortexlabs/request-monitor:master
-image_cluster_autoscaler: <account_id>.dkr.ecr.<region>.amazonaws.com/cortexlabs/cluster-autoscaler:master
-image_metrics_server: <account_id>.dkr.ecr.<region>.amazonaws.com/cortexlabs/metrics-server:master
-image_inferentia: <account_id>.dkr.ecr.<region>.amazonaws.com/cortexlabs/inferentia:master
-image_neuron_rtd: <account_id>.dkr.ecr.<region>.amazonaws.com/cortexlabs/neuron-rtd:master
-image_nvidia: <account_id>.dkr.ecr.<region>.amazonaws.com/cortexlabs/nvidia:master
-image_fluent_bit: <account_id>.dkr.ecr.<region>.amazonaws.com/cortexlabs/fluent-bit:master
-image_istio_proxy: <account_id>.dkr.ecr.<region>.amazonaws.com/cortexlabs/istio-proxy:master
-image_istio_pilot: <account_id>.dkr.ecr.<region>.amazonaws.com/cortexlabs/istio-pilot:master
-image_prometheus: <account_id>.dkr.ecr.<region>.amazonaws.com/cortexlabs/prometheus:master
-image_prometheus_config_reloader: <account_id>.dkr.ecr.<region>.amazonaws.com/cortexlabs/prometheus-config-reloader:master
-image_prometheus_operator: <account_id>.dkr.ecr.<region>.amazonaws.com/cortexlabs/prometheus-operator:master
-image_prometheus_statsd_exporter: <account_id>.dkr.ecr.<region>.amazonaws.com/cortexlabs/prometheus-statsd-exporter:master
-image_prometheus_dcgm_exporter: <account_id>.dkr.ecr.<region>.amazonaws.com/cortexlabs/prometheus-dcgm-exporter:master
-image_prometheus_kube_state_metrics: <account_id>.dkr.ecr.<region>.amazonaws.com/cortexlabs/prometheus-kube-state-metrics:master
-image_prometheus_node_exporter: <account_id>.dkr.ecr.<region>.amazonaws.com/cortexlabs/prometheus-node-exporter:master
-image_kube_rbac_proxy: <account_id>.dkr.ecr.<region>.amazonaws.com/cortexlabs/kube-rbac-proxy:master
-image_grafana: <account_id>.dkr.ecr.<region>.amazonaws.com/cortexlabs/grafana:master
-image_event_exporter: <account_id>.dkr.ecr.<region>.amazonaws.com/cortexlabs/event-exporter:master
+image_operator: public.ecr.aws/x6x7z2q3/mor-cortex/operator:master
+image_manager: public.ecr.aws/x6x7z2q3/mor-cortex/manager:master
+image_downloader: public.ecr.aws/x6x7z2q3/mor-cortex/downloader:master
+image_request_monitor: public.ecr.aws/x6x7z2q3/mor-cortex/request-monitor:master
+image_cluster_autoscaler: public.ecr.aws/x6x7z2q3/mor-cortex/cluster-autoscaler:master
+image_metrics_server: public.ecr.aws/x6x7z2q3/mor-cortex/metrics-server:master
+image_inferentia: public.ecr.aws/x6x7z2q3/mor-cortex/inferentia:master
+image_neuron_rtd: public.ecr.aws/x6x7z2q3/mor-cortex/neuron-rtd:master
+image_nvidia: public.ecr.aws/x6x7z2q3/mor-cortex/nvidia:master
+image_fluent_bit: public.ecr.aws/x6x7z2q3/mor-cortex/fluent-bit:master
+image_istio_proxy: public.ecr.aws/x6x7z2q3/mor-cortex/istio-proxy:master
+image_istio_pilot: public.ecr.aws/x6x7z2q3/mor-cortex/istio-pilot:master
+image_prometheus: public.ecr.aws/x6x7z2q3/mor-cortex/prometheus:master
+image_prometheus_config_reloader: public.ecr.aws/x6x7z2q3/mor-cortex/prometheus-config-reloader:master
+image_prometheus_operator: public.ecr.aws/x6x7z2q3/mor-cortex/prometheus-operator:master
+image_prometheus_statsd_exporter: public.ecr.aws/x6x7z2q3/mor-cortex/prometheus-statsd-exporter:master
+image_prometheus_dcgm_exporter: public.ecr.aws/x6x7z2q3/mor-cortex/prometheus-dcgm-exporter:master
+image_prometheus_kube_state_metrics: public.ecr.aws/x6x7z2q3/mor-cortex/prometheus-kube-state-metrics:master
+image_prometheus_node_exporter: public.ecr.aws/x6x7z2q3/mor-cortex/prometheus-node-exporter:master
+image_kube_rbac_proxy: public.ecr.aws/x6x7z2q3/mor-cortex/kube-rbac-proxy:master
+image_grafana: public.ecr.aws/x6x7z2q3/mor-cortex/grafana:master
+image_event_exporter: public.ecr.aws/x6x7z2q3/mor-cortex/event-exporter:master
 ```
 
 Create `dev/config/cluster-gcp.yaml`. Paste the following config, and update `project`, `zone`, and all registry URLs (replace `<project_id>` with your project ID, and update `gcr.io` if you are using a different host):
@@ -246,7 +246,7 @@ Add this to your bash profile (e.g. `~/.bash_profile`, `~/.profile` or `~/.bashr
 
 ```bash
 # set the default image for APIs
-export CORTEX_DEV_DEFAULT_PREDICTOR_IMAGE_REGISTRY_AWS="<account_id>.dkr.ecr.<region>.amazonaws.com/cortexlabs"
+export CORTEX_DEV_DEFAULT_PREDICTOR_IMAGE_REGISTRY_AWS="public.ecr.aws/x6x7z2q3/mor-cortex"
 export CORTEX_DEV_DEFAULT_PREDICTOR_IMAGE_REGISTRY_GCP="gcr.io/<project_id>/cortexlabs"
 export CORTEX_DEV_DEFAULT_PREDICTOR_IMAGE_REGISTRY="cortexlabs"
 

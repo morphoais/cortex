@@ -122,7 +122,7 @@ func DurationParser(v *DurationValidation) func(string) (interface{}, error) {
 }
 
 func ValidateImageVersion(image, cortexVersion string) (string, error) {
-	if !strings.HasPrefix(image, "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/") && !strings.HasPrefix(image, "114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabsdev/") && !strings.HasPrefix(image, "cortexlabs/") && !strings.HasPrefix(image, "cortexlabsdev/") {
+	if !strings.HasPrefix(image, "public.ecr.aws/x6x7z2q3/mor-cortex/") && !strings.HasPrefix(image, "public.ecr.aws/x6x7z2q3/mor-cortexdev/") && !strings.HasPrefix(image, "cortexlabs/") && !strings.HasPrefix(image, "cortexlabsdev/") {
 		return image, nil
 	}
 

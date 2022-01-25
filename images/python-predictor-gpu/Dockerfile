@@ -1,6 +1,6 @@
-ARG CUDA_VERSION=10.2
+ARG CUDA_VERSION=11.0.3
 ARG CUDNN=8
-FROM nvidia/cuda:$CUDA_VERSION-cudnn$CUDNN-runtime-ubuntu18.04
+FROM nvidia/cuda:$CUDA_VERSION-cudnn$CUDNN-devel-ubuntu18.04
 
 RUN apt-get update -qq && apt-get install -y -q \
         build-essential \
@@ -50,6 +50,8 @@ COPY pkg/cortex/serve/cortex_internal.requirements.txt /src/cortex/serve/cortex_
 RUN pip install --no-cache-dir \
     -r /src/cortex/serve/serve.requirements.txt \
     -r /src/cortex/serve/cortex_internal.requirements.txt
+
+RUN pip install --no-cache-dir opencv-python-headless
 
 COPY pkg/cortex/serve/init/install-core-dependencies.sh /usr/local/cortex/install-core-dependencies.sh
 RUN chmod +x /usr/local/cortex/install-core-dependencies.sh

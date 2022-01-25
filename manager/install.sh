@@ -425,7 +425,7 @@ function setup_istio() {
 }
 
 function start_pre_download_images() {
-  registry="114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs"
+  registry="public.ecr.aws/x6x7z2q3/mor-cortex"
   if [ -n "$CORTEX_DEV_DEFAULT_PREDICTOR_IMAGE_REGISTRY" ]; then
     registry="$CORTEX_DEV_DEFAULT_PREDICTOR_IMAGE_REGISTRY"
   fi

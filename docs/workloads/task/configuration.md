@@ -12,7 +12,7 @@
       conda: <string>  # relative path to conda-packages.txt (default: conda-packages.txt)
       shell: <string>  # relative path to a shell script for system package installation (default: dependencies.sh)
     python_path: <string>  # path to the root of your Python folder that will be appended to PYTHONPATH (default: folder containing cortex.yaml)
-    image: <string> # docker image to use for the Task (default: 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/python-predictor-cpu:0.31.1, 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/python-predictor-gpu:0.31.1-cuda10.2-cudnn8, or 114359479486.dkr.ecr.ap-northeast-1.amazonaws.com/cortexlabs/python-predictor-inf:0.31.1 based on compute)
+    image: <string> # docker image to use for the Task (default: public.ecr.aws/x6x7z2q3/mor-cortex/python-predictor-cpu:0.31.1, public.ecr.aws/x6x7z2q3/mor-cortex/python-predictor-gpu:0.31.1-cuda10.2-cudnn8, or public.ecr.aws/x6x7z2q3/mor-cortex/python-predictor-inf:0.31.1 based on compute)
     env: <string: string>  # dictionary of environment variables
     log_level: <string>  # log level that can be "debug", "info", "warning" or "error" (default: "info")
   networking:
