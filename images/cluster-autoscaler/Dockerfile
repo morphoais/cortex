@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/autoscaling/cluster-autoscaler:v1.21.2
+FROM k8s.gcr.io/autoscaling/cluster-autoscaler:v1.23.1

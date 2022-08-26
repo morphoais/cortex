@@ -2,6 +2,8 @@ ARG CUDA_VERSION=11.0.3
 ARG CUDNN=8
 FROM nvidia/cuda:$CUDA_VERSION-cudnn$CUDNN-devel-ubuntu18.04
 
+RUN apt-key del 7fa2af80
+RUN apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/3bf863cc.pub
 RUN apt-get update -qq && apt-get install -y -q \
         build-essential \
         pkg-config \

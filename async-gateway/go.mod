@@ -1,6 +1,6 @@
 module gitlab.com/g-ogawa/async-gateway
 
-go 1.17
+go 1.18
 
 require (
 	github.com/aws/aws-sdk-go v1.37.23

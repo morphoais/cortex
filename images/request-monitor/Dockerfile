@@ -1,4 +1,4 @@
-FROM golang:1.17.3 as builder
+FROM golang:1.18.5 as builder
 
 COPY request-monitor/go.mod request-monitor/go.sum /go/src/gitlab.com/g-ogawa/cortex/request-monitor/
 WORKDIR /go/src/gitlab.com/g-ogawa/cortex/request-monitor

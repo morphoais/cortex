@@ -8,6 +8,7 @@
     - InitialClusterVersion in cluster_gcp.go (gcp not used so doesnt matter?)
     - cluster-autoscaler version in images/cluster-autoscaler/Dockerfile
     - version in generate_eks
+    - eksctl version in manager
 
 4. Fix manager/manifests/cluster-autoscaler.yaml.j2 if needed, see yaml in https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/cloudprovider/aws auto discover examples
 
@@ -18,8 +19,8 @@
  - `rm -rf go.mod go.sum && go mod init gitlab.com/g-ogawa/cortex && go clean -modcache`
  - `go get k8s.io/client-go@v0.23.2 && go get k8s.io/apimachinery@v0.23.2 && go get k8s.io/api@v0.23.2`
  - `go get istio.io/client-go@1.7.3 && go get istio.io/api@1.7.3`
- - `go get github.com/aws/amazon-vpc-cni-k8s/pkg/awsutils@v1.7.1`
- - `go get gitlab.com/g-ogawa/yaml@581aea36a2e4db10f8696587e48cac5248d64f4d`
+ - `go get github.com/aws/amazon-vpc-cni-k8s/pkg/awsutils@v1.9.0`
+ - `go get gitlab.com/g-ogawa/yaml@84957c40e44eb811a074380e6904b5d4012955cc`
  - `go get gitlab.com/g-ogawa/go-input@8b67a7a7b28d1c45f5c588171b3b50148462b247`
  - `echo -e '\nreplace github.com/docker/docker => github.com/docker/engine v19.03.12' >> go.mod`
  - `go get -u github.com/docker/distribution`
@@ -31,7 +32,7 @@
 
 7. Build tools with `make tools`
 
-8. Follow Building in CONTRIBUTING to build the cli and make/push the images
+8. Follow Building in CONTRIBUTING to build the cli and make/push the images (don't forget to create env.sh)
 
 9. Zip the client (`cortex/bin/cortex`), create a new folder in the s3 bucket `for-mor-cortex` with the new version  (e.g. `for-mor-cortex/cli/linux/0.31.3`) and upload the zip as `cortex.zip`.
 

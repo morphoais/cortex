@@ -21,7 +21,7 @@ import yaml
 # https://github.com/kubernetes/kubernetes/blob/master/staging/src/k8s.io/kubelet/config/v1beta1/types.go
 def default_nodegroup(cluster_config):
     return {
-        "ami": "auto",
+        # "ami": "auto",
         "iam": {
             "withAddonPolicies": {"autoScaler": True},
             "attachPolicyARNs": [
@@ -40,6 +40,7 @@ def default_nodegroup(cluster_config):
             "systemReserved": {"cpu": "150m", "memory": "300Mi", "ephemeral-storage": "1Gi"},
             "evictionHard": {"memory.available": "200Mi", "nodefs.available": "5%"},
         },
+        # "overrideBootstrapCommand": '#!/bin/bash\nsource /var/lib/cloud/scripts/eksctl/bootstrap.helper.sh\n/etc/eks/bootstrap.sh test-override-11 --container-runtime containerd --kubelet-extra-args "--node-labels=${NODE_LABELS}"'
     }
 
 
@@ -210,7 +211,7 @@ def generate_eks(cluster_config_path):
         "metadata": {
             "name": cluster_config["cluster_name"],
             "region": cluster_config["region"],
-            "version": "1.21",
+            "version": "1.23",
             "tags": cluster_config["tags"],
         },
         "vpc": {"nat": {"gateway": nat_gateway}},
