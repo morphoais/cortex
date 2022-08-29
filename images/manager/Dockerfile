@@ -1,4 +1,4 @@
-FROM python:3.6-alpine3.12
+FROM python:3.8.10-alpine
 
 WORKDIR /root
 
@@ -26,7 +26,7 @@ RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.22.3/b
     chmod +x ./kubectl && \
     mv ./kubectl /usr/local/bin/kubectl
 
-ENV ISTIO_VERSION 1.7.3
+ENV ISTIO_VERSION 1.14.3
 RUN curl -L https://istio.io/downloadIstio | sh -
 
 RUN curl https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-317.0.0-linux-x86_64.tar.gz > /tmp/google-cloud-sdk.tar.gz && \

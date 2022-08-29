@@ -18,7 +18,7 @@
 
  - `rm -rf go.mod go.sum && go mod init gitlab.com/g-ogawa/cortex && go clean -modcache`
  - `go get k8s.io/client-go@v0.23.2 && go get k8s.io/apimachinery@v0.23.2 && go get k8s.io/api@v0.23.2`
- - `go get istio.io/client-go@1.7.3 && go get istio.io/api@1.7.3`
+ - `go get istio.io/client-go@release-1.14 && go get istio.io/api@release-1.14`
  - `go get github.com/aws/amazon-vpc-cni-k8s/pkg/awsutils@v1.9.0`
  - `go get gitlab.com/g-ogawa/yaml@84957c40e44eb811a074380e6904b5d4012955cc`
  - `go get gitlab.com/g-ogawa/go-input@8b67a7a7b28d1c45f5c588171b3b50148462b247`

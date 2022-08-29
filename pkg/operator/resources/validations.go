@@ -81,7 +81,8 @@ func ValidateClusterAPIs(apis []userconfig.API, projectFiles spec.ProjectFiles) 
 
 	deployedRealtimeAPIs := strset.New()
 
-	for _, virtualService := range virtualServices {
+	for idx, _ := range virtualServices {
+		var virtualService = *virtualServices[idx]
 		if virtualService.Labels["apiKind"] == userconfig.RealtimeAPIKind.String() {
 			deployedRealtimeAPIs.Add(virtualService.Labels["apiName"])
 		}
@@ -234,9 +235,9 @@ func awsManagedValidateK8sCompute(compute *userconfig.Compute, maxMemMap map[str
 	return nil
 }
 
-func validateEndpointCollisions(api *userconfig.API, virtualServices []istioclientnetworking.VirtualService) error {
+func validateEndpointCollisions(api *userconfig.API, virtualServices []*istioclientnetworking.VirtualService) error {
 	for i := range virtualServices {
-		virtualService := virtualServices[i]
+		virtualService := *virtualServices[i]
 		gateways := k8s.ExtractVirtualServiceGateways(&virtualService)
 		if !gateways.Has("apis-gateway") {
 			continue

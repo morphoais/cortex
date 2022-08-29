@@ -28,7 +28,7 @@ import (
 )
 
 var _ingressTypeMeta = kmeta.TypeMeta{
-	APIVersion: "extensions/v1beta1",
+	APIVersion: "extensions/v1",
 	Kind:       "Ingress",
 }
 

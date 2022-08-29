@@ -103,15 +103,13 @@ setup(
             "sentry-sdk>=0.20.2",
         ]
     ),
-    python_requires=">=3.6",
+    python_requires=">=3.8",
     cmdclass={
         "install": InstallBinary,
     },
     classifiers=[
         "Operating System :: MacOS",
         "Operating System :: POSIX :: Linux",
-        "Programming Language :: Python :: 3.6",
-        "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Intended Audience :: Developers",
     ],

@@ -51,8 +51,11 @@ function cluster_up_aws() {
 
   echo -n "￮ configuring networking (this might take a few minutes) "
   setup_istio
+  echo "istio done"
   python render_template.py $CORTEX_CLUSTER_CONFIG_FILE manifests/apis.yaml.j2 > /workspace/apis.yaml
-  kubectl apply -f /workspace/apis.yaml >/dev/null
+  echo "rendered template for apis"
+  kubectl apply -f /workspace/apis.yaml
+  echo "kubectl done"
   echo "✓"
 
   echo -n "￮ configuring autoscaling "
@@ -412,16 +415,20 @@ function suspend_az_rebalance() {
 }
 
 function setup_istio() {
-  envsubst < manifests/istio-namespace.yaml | kubectl apply -f - >/dev/null
+  echo "doing istio namespace manifest"
+  envsubst < manifests/istio-namespace.yaml | kubectl apply -f - 
 
   if ! grep -q "istio-customgateway-certs" <<< $(kubectl get secret -n istio-system); then
+    echo "Creating localhost"
     WEBSITE=localhost
-    openssl req -subj "/C=US/CN=$WEBSITE" -newkey rsa:2048 -nodes -keyout $WEBSITE.key -x509 -days 3650 -out $WEBSITE.crt >/dev/null 2>&1
-    kubectl create -n istio-system secret tls istio-customgateway-certs --key $WEBSITE.key --cert $WEBSITE.crt >/dev/null
+    openssl req -subj "/C=US/CN=$WEBSITE" -newkey rsa:2048 -nodes -keyout $WEBSITE.key -x509 -days 3650 -out $WEBSITE.crt
+    kubectl create -n istio-system secret tls istio-customgateway-certs --key $WEBSITE.key --cert $WEBSITE.crt 
   fi
 
+  echo "rendering template"
   python render_template.py $CORTEX_CLUSTER_CONFIG_FILE manifests/istio.yaml.j2 > /workspace/istio.yaml
-  output_if_error istio-${ISTIO_VERSION}/bin/istioctl install -f /workspace/istio.yaml
+  echo "execution istioctl install"
+  istio-${ISTIO_VERSION}/bin/istioctl install -y -f /workspace/istio.yaml
 }
 
 function start_pre_download_images() {

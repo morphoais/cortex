@@ -18,7 +18,7 @@ import yaml
 
 
 # kubelet config schema:
-# https://github.com/kubernetes/kubernetes/blob/master/staging/src/k8s.io/kubelet/config/v1beta1/types.go
+# https://github.com/kubernetes/kubernetes/blob/master/staging/src/k8s.io/kubelet/config/v1/types.go
 def default_nodegroup(cluster_config):
     return {
         # "ami": "auto",

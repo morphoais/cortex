@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Change if PYTHONVERSION changes
-EXPECTED_PYTHON_VERSION = "3.6.9"
+EXPECTED_PYTHON_VERSION = "3.8.10"
 
 CORTEX_VERSION = "0.31.3"  # CORTEX_VERSION
 CORTEX_TELEMETRY_SENTRY_DSN = "https://5cea3d2d67194d028f7191fcc6ebca14@sentry.io/1825326"

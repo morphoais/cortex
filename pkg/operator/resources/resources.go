@@ -384,7 +384,7 @@ func GetAPIs() ([]schema.APIResponse, error) {
 	var k8sBatchJobs []kbatch.Job
 	var k8sTaskJobs []kbatch.Job
 	var pods []kcore.Pod
-	var virtualServices []istioclientnetworking.VirtualService
+	var virtualServices []*istioclientnetworking.VirtualService
 
 	err := parallel.RunFirstErr(
 		func() error {
@@ -465,7 +465,8 @@ func GetAPIs() ([]schema.APIResponse, error) {
 	var taskAPIVirtualServices []istioclientnetworking.VirtualService
 	var trafficSplitterVirtualServices []istioclientnetworking.VirtualService
 
-	for _, vs := range virtualServices {
+	for idx, _ := range virtualServices {
+		var vs = *virtualServices[idx]
 		switch vs.Labels["apiKind"] {
 		case userconfig.BatchAPIKind.String():
 			batchAPIVirtualServices = append(batchAPIVirtualServices, vs)

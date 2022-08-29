@@ -1,7 +1,9 @@
-ARG CUDA_VERSION=11.0.3
+ARG CUDA_VERSION=11.2.1
 ARG CUDNN=8
-FROM nvidia/cuda:$CUDA_VERSION-cudnn$CUDNN-devel-ubuntu18.04
+FROM nvidia/cuda:$CUDA_VERSION-cudnn$CUDNN-devel-ubuntu20.04
 
+ENV DEBIAN_FRONTEND=noninteractive
+ENV TZ=Asia/Tokyo
 RUN apt-key del 7fa2af80
 RUN apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/3bf863cc.pub
 RUN apt-get update -qq && apt-get install -y -q \
@@ -13,7 +15,7 @@ RUN apt-get update -qq && apt-get install -y -q \
         unzip \
         zlib1g-dev \
         locales \
-        nginx=1.14.* \
+        nginx=1.18.* \
     && apt-get clean -qq && rm -rf /var/lib/apt/lists/*
 
 RUN cd /tmp/ && \
@@ -27,7 +29,7 @@ RUN locale-gen en_US.UTF-8
 ENV LANG=en_US.UTF-8 LANGUAGE=en_US.UTF-8 LC_ALL=en_US.UTF-8
 
 ENV PATH=/opt/conda/bin:$PATH
-ENV PYTHONVERSION=3.6.9
+ENV PYTHONVERSION=3.8.10
 ENV CORTEX_IMAGE_TYPE=python-predictor-gpu
 
 # conda needs an untainted base environment to function properly

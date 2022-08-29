@@ -155,7 +155,7 @@ function build_and_push() {
 
   tag=$CORTEX_VERSION
   if [ "${image}" == "python-predictor-gpu" ]; then
-    tag="${CORTEX_VERSION}-cuda11.0-cudnn8"
+    tag="${CORTEX_VERSION}-cuda11.2-cudnn8"
   fi
 
   build $image $tag
